@@ -2,6 +2,8 @@
 
 This project visualizes a modern AI-first approach to software development that combines automated AI tooling with continuous human oversight.
 
+![AI-First Development Workflow](Screenshot%202025-08-05%20at%2015.57.08.png)
+
 ## Overview
 
 The workflow diagram (`ai-wf.svg`) illustrates a comprehensive development pipeline where:
