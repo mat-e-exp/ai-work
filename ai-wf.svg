@@ -1,6 +1,6 @@
-<svg viewBox="0 0 1800 800" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1800 850" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="1800" height="800" fill="#f8fafc"/>
+  <rect width="1800" height="850" fill="#f8fafc"/>
   
   <!-- Arrow marker definition -->
   <defs>
@@ -254,113 +254,137 @@
   <path d="M 1550 300 L 1550 420" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
   <path d="M 1560 420 L 1560 300" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
   
-  <!-- AI-First Development Analysis -->
+  <!-- Workflow Analysis -->
   <g>
-    <rect x="50" y="600" width="1700" height="150" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="900" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">AI-First Continuous Development Benefits</text>
+    <rect x="50" y="600" width="1700" height="200" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="900" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Workflow Strengths and Weaknesses</text>
     
     <!-- AI Strengths Section -->
-    <text x="80" y="645" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">AI Strengths:</text>
-    <text x="80" y="658" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous flow: No bottlenecks or</text>
-    <text x="85" y="668" font-family="Arial, sans-serif" font-size="8" fill="#475569">approval delays</text>
-    <text x="80" y="678" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Real-time adaptation: Instant feedback</text>
-    <text x="85" y="688" font-family="Arial, sans-serif" font-size="8" fill="#475569">integration and course correction</text>
-    <text x="80" y="698" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Parallel processing: Multiple stages</text>
-    <text x="85" y="708" font-family="Arial, sans-serif" font-size="8" fill="#475569">can work simultaneously</text>
-    <text x="80" y="718" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Self-correction: AI learns and adjusts</text>
-    <text x="85" y="728" font-family="Arial, sans-serif" font-size="8" fill="#475569">based on continuous feedback</text>
-    <text x="80" y="738" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Maximum velocity: Uninterrupted</text>
-    <text x="85" y="748" font-family="Arial, sans-serif" font-size="8" fill="#475569">development pipeline</text>
+    <text x="175" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">AI Strengths:</text>
+    <text x="175" y="658" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous flow: No bottlenecks or</text>
+    <text x="175" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">approval delays</text>
+    <text x="175" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Real-time adaptation: Instant feedback</text>
+    <text x="175" y="688" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">integration and course correction</text>
+    <text x="175" y="698" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Parallel processing: Multiple stages</text>
+    <text x="175" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">can work simultaneously</text>
+    
+    <text x="175" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">AI Weaknesses:</text>
+    <text x="175" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Lacks context understanding</text>
+    <text x="175" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• May miss business nuances</text>
+    <text x="175" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Requires careful prompt engineering</text>
+    <text x="175" y="768" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Can generate technically correct</text>
+    <text x="175" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">but inappropriate solutions</text>
     
     <!-- Human Strengths Section -->
-    <text x="300" y="645" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">Human Strengths:</text>
-    <text x="300" y="658" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous oversight: Always monitoring</text>
-    <text x="305" y="668" font-family="Arial, sans-serif" font-size="8" fill="#475569">AI outputs for quality</text>
-    <text x="300" y="678" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Real-time guidance: Immediate course</text>
-    <text x="305" y="688" font-family="Arial, sans-serif" font-size="8" fill="#475569">correction when needed</text>
-    <text x="300" y="698" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Pattern recognition: Spots emerging</text>
-    <text x="305" y="708" font-family="Arial, sans-serif" font-size="8" fill="#475569">issues before they become problems</text>
-    <text x="300" y="718" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Strategic alignment: Ensures outputs</text>
-    <text x="305" y="728" font-family="Arial, sans-serif" font-size="8" fill="#475569">match business objectives</text>
-    <text x="300" y="738" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality assurance: Continuous</text>
-    <text x="305" y="748" font-family="Arial, sans-serif" font-size="8" fill="#475569">validation and improvement</text>
+    <text x="365" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">Human Strengths:</text>
+    <text x="365" y="658" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous oversight: Always monitoring</text>
+    <text x="365" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">AI outputs for quality</text>
+    <text x="365" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Real-time guidance: Immediate course</text>
+    <text x="365" y="688" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">correction when needed</text>
+    <text x="365" y="698" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Pattern recognition: Spots emerging</text>
+    <text x="365" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">issues before they become problems</text>
     
-    <!-- Model Benefits Section -->
-    <text x="520" y="645" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Model Benefits:</text>
-    <text x="520" y="658" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Zero wait time: No approval bottlenecks</text>
-    <text x="525" y="668" font-family="Arial, sans-serif" font-size="8" fill="#475569">or staging delays</text>
-    <text x="520" y="678" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Iterative improvement: Continuous</text>
-    <text x="525" y="688" font-family="Arial, sans-serif" font-size="8" fill="#475569">refinement throughout process</text>
-    <text x="520" y="698" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Faster delivery: Maximum development</text>
-    <text x="525" y="708" font-family="Arial, sans-serif" font-size="8" fill="#475569">velocity without sacrificing quality</text>
-    <text x="520" y="718" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Adaptive workflow: Process adjusts</text>
-    <text x="525" y="728" font-family="Arial, sans-serif" font-size="8" fill="#475569">to project needs in real-time</text>
-    <text x="520" y="738" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Reduced friction: Seamless flow</text>
-    <text x="525" y="748" font-family="Arial, sans-serif" font-size="8" fill="#475569">between all development stages</text>
+    <text x="365" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Human Weaknesses:</text>
+    <text x="365" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Limited bandwidth for monitoring</text>
+    <text x="365" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">all stages simultaneously</text>
+    <text x="365" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Potential for oversight fatigue</text>
+    <text x="365" y="768" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• May become bottleneck if not</text>
+    <text x="365" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">properly resourced</text>
+    
+    <!-- Process Benefits Section -->
+    <text x="555" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Process Strengths:</text>
+    <text x="555" y="658" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Zero wait time: No approval bottlenecks</text>
+    <text x="555" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">or staging delays</text>
+    <text x="555" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Iterative improvement: Continuous</text>
+    <text x="555" y="688" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">refinement throughout process</text>
+    <text x="555" y="698" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Faster delivery: Maximum development</text>
+    <text x="555" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">velocity without sacrificing quality</text>
+    
+    <text x="555" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Process Weaknesses:</text>
+    <text x="555" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• High complexity requires skilled teams</text>
+    <text x="555" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Difficult to implement in traditional</text>
+    <text x="555" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">organizations</text>
+    <text x="555" y="768" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Requires significant tooling</text>
+    <text x="555" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">and infrastructure investment</text>
     
     <!-- Quality Assurance Section -->
-    <text x="740" y="645" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">Quality Assurance:</text>
-    <text x="740" y="658" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Embedded oversight: Quality checks</text>
-    <text x="745" y="668" font-family="Arial, sans-serif" font-size="8" fill="#475569">integrated into each stage</text>
-    <text x="740" y="678" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous validation: Real-time</text>
-    <text x="745" y="688" font-family="Arial, sans-serif" font-size="8" fill="#475569">monitoring and correction</text>
-    <text x="740" y="698" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Immediate feedback: Issues caught</text>
-    <text x="745" y="708" font-family="Arial, sans-serif" font-size="8" fill="#475569">and fixed instantly</text>
-    <text x="740" y="718" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Progressive improvement: Each stage</text>
-    <text x="745" y="728" font-family="Arial, sans-serif" font-size="8" fill="#475569">builds on validated outputs</text>
-    <text x="740" y="738" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Holistic monitoring: End-to-end</text>
-    <text x="745" y="748" font-family="Arial, sans-serif" font-size="8" fill="#475569">quality assurance</text>
+    <text x="745" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">Quality Strengths:</text>
+    <text x="745" y="658" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Embedded oversight: Quality checks</text>
+    <text x="745" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">integrated into each stage</text>
+    <text x="745" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous validation: Real-time</text>
+    <text x="745" y="688" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">monitoring and correction</text>
+    <text x="745" y="698" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Immediate feedback: Issues caught</text>
+    <text x="745" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">and fixed instantly</text>
     
-    <!-- Risk Mitigation Section -->
-    <text x="960" y="645" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0891b2">Risk Mitigation:</text>
-    <text x="960" y="658" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Early detection: Problems identified</text>
-    <text x="965" y="668" font-family="Arial, sans-serif" font-size="8" fill="#475569">at source, not downstream</text>
-    <text x="960" y="678" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Immediate correction: Fast feedback</text>
-    <text x="965" y="688" font-family="Arial, sans-serif" font-size="8" fill="#475569">loops prevent error propagation</text>
-    <text x="960" y="698" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Parallel validation: Multiple quality</text>
-    <text x="965" y="708" font-family="Arial, sans-serif" font-size="8" fill="#475569">checks running simultaneously</text>
-    <text x="960" y="718" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous monitoring: No blind spots</text>
-    <text x="965" y="728" font-family="Arial, sans-serif" font-size="8" fill="#475569">in quality assurance</text>
-    <text x="960" y="738" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Proactive adjustment: Issues prevented</text>
-    <text x="965" y="748" font-family="Arial, sans-serif" font-size="8" fill="#475569">rather than fixed later</text>
+    <text x="745" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Quality Weaknesses:</text>
+    <text x="745" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Over-reliance on automated checks</text>
+    <text x="745" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">may miss edge cases</text>
+    <text x="745" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality metrics can become</text>
+    <text x="745" y="768" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">targets rather than indicators</text>
+    <text x="745" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Requires constant calibration</text>
     
-    <!-- Success Factors Section -->
-    <text x="1180" y="645" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Success Factors:</text>
-    <text x="1180" y="658" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Skilled oversight teams: Experts who</text>
-    <text x="1185" y="668" font-family="Arial, sans-serif" font-size="8" fill="#475569">can monitor AI outputs effectively</text>
-    <text x="1180" y="678" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Robust monitoring: Comprehensive</text>
-    <text x="1185" y="688" font-family="Arial, sans-serif" font-size="8" fill="#475569">tracking across all stages</text>
-    <text x="1180" y="698" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Clear standards: Well-defined quality</text>
-    <text x="1185" y="708" font-family="Arial, sans-serif" font-size="8" fill="#475569">criteria and acceptance thresholds</text>
-    <text x="1180" y="718" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Feedback systems: Rapid communication</text>
-    <text x="1185" y="728" font-family="Arial, sans-serif" font-size="8" fill="#475569">between oversight and AI systems</text>
-    <text x="1180" y="738" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous improvement: Process</text>
-    <text x="1185" y="748" font-family="Arial, sans-serif" font-size="8" fill="#475569">optimization based on outcomes</text>
+    <!-- Risk Management Section -->
+    <text x="935" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0891b2">Risk Strengths:</text>
+    <text x="935" y="658" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Early detection: Problems identified</text>
+    <text x="935" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">at source, not downstream</text>
+    <text x="935" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Immediate correction: Fast feedback</text>
+    <text x="935" y="688" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">loops prevent error propagation</text>
+    <text x="935" y="698" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Parallel validation: Multiple quality</text>
+    <text x="935" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">checks running simultaneously</text>
     
-    <!-- Best Practices Section -->
-    <text x="1400" y="645" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">Best Practices:</text>
-    <text x="1400" y="658" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Real-time dashboards: Live monitoring</text>
-    <text x="1405" y="668" font-family="Arial, sans-serif" font-size="8" fill="#475569">of all development metrics</text>
-    <text x="1400" y="678" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Automated alerts: Immediate notification</text>
-    <text x="1405" y="688" font-family="Arial, sans-serif" font-size="8" fill="#475569">when thresholds are exceeded</text>
-    <text x="1400" y="698" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Integrated tooling: Seamless flow</text>
-    <text x="1405" y="708" font-family="Arial, sans-serif" font-size="8" fill="#475569">between oversight and AI systems</text>
-    <text x="1400" y="718" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous training: Keep oversight</text>
-    <text x="1405" y="728" font-family="Arial, sans-serif" font-size="8" fill="#475569">teams current with AI capabilities</text>
-    <text x="1400" y="738" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Adaptive processes: Workflows that</text>
-    <text x="1405" y="748" font-family="Arial, sans-serif" font-size="8" fill="#475569">evolve based on project needs</text>
+    <text x="935" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Risk Weaknesses:</text>
+    <text x="935" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• False sense of security from</text>
+    <text x="935" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">automated monitoring</text>
+    <text x="935" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Alert fatigue from too many</text>
+    <text x="935" y="768" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">notifications</text>
+    <text x="935" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Complex failure modes difficult to predict</text>
     
-    <!-- Performance Metrics Section -->
-    <text x="1620" y="645" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0891b2">Key Metrics:</text>
-    <text x="1620" y="658" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Flow efficiency: Time from start</text>
-    <text x="1625" y="668" font-family="Arial, sans-serif" font-size="8" fill="#475569">to production deployment</text>
-    <text x="1620" y="678" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality velocity: Speed of quality</text>
-    <text x="1625" y="688" font-family="Arial, sans-serif" font-size="8" fill="#475569">issue detection and resolution</text>
-    <text x="1620" y="698" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Feedback latency: Time between</text>
-    <text x="1625" y="708" font-family="Arial, sans-serif" font-size="8" fill="#475569">issue detection and correction</text>
-    <text x="1620" y="718" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Throughput rate: Features delivered</text>
-    <text x="1625" y="728" font-family="Arial, sans-serif" font-size="8" fill="#475569">per unit time</text>
-    <text x="1620" y="738" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality score: Continuous measure</text>
-    <text x="1625" y="748" font-family="Arial, sans-serif" font-size="8" fill="#475569">of output quality</text>
+    <!-- Implementation Section -->
+    <text x="1125" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Implementation Strengths:</text>
+    <text x="1125" y="658" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Skilled oversight teams: Experts who</text>
+    <text x="1125" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">can monitor AI outputs effectively</text>
+    <text x="1125" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Robust monitoring: Comprehensive</text>
+    <text x="1125" y="688" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">tracking across all stages</text>
+    <text x="1125" y="698" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Clear standards: Well-defined quality</text>
+    <text x="1125" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">criteria and acceptance thresholds</text>
+    
+    <text x="1125" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Implementation Weaknesses:</text>
+    <text x="1125" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• High barrier to entry: Requires</text>
+    <text x="1125" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">significant upfront investment</text>
+    <text x="1125" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Talent shortage: Hard to find</text>
+    <text x="1125" y="768" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">AI-workflow experts</text>
+    <text x="1125" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Change management challenges</text>
+    
+    <!-- Operational Section -->
+    <text x="1315" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">Operational Strengths:</text>
+    <text x="1315" y="658" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Real-time dashboards: Live monitoring</text>
+    <text x="1315" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">of all development metrics</text>
+    <text x="1315" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Automated alerts: Immediate notification</text>
+    <text x="1315" y="688" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">when thresholds are exceeded</text>
+    <text x="1315" y="698" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Integrated tooling: Seamless flow</text>
+    <text x="1315" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">between oversight and AI systems</text>
+    
+    <text x="1315" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Operational Weaknesses:</text>
+    <text x="1315" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Tool sprawl: Managing multiple</text>
+    <text x="1315" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">AI tools and integrations</text>
+    <text x="1315" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Maintenance overhead: Constant</text>
+    <text x="1315" y="768" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">updates and calibration needed</text>
+    <text x="1315" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Vendor lock-in risks</text>
+    
+    <!-- Measurement Section -->
+    <text x="1505" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0891b2">Measurement Strengths:</text>
+    <text x="1505" y="658" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Flow efficiency: Time from start</text>
+    <text x="1505" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">to production deployment</text>
+    <text x="1505" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality velocity: Speed of quality</text>
+    <text x="1505" y="688" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">issue detection and resolution</text>
+    <text x="1505" y="698" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Feedback latency: Time between</text>
+    <text x="1505" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">issue detection and correction</text>
+    
+    <text x="1505" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Measurement Weaknesses:</text>
+    <text x="1505" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Metrics can drive wrong behaviors</text>
+    <text x="1505" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Difficult to measure qualitative</text>
+    <text x="1505" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">aspects like user satisfaction</text>
+    <text x="1505" y="768" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Data overload: Too many metrics</text>
+    <text x="1505" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">can obscure important signals</text>
   </g>
 </svg>
