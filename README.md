@@ -2,8 +2,6 @@
 
 This project visualizes the evolution of software development methodologies from traditional waterfall approaches through agile practices to AI-augmented and fully agentic workflows.
 
-![Development Workflow Evolution](Screenshot%202025-08-05%20at%2015.57.08.png)
-
 ## Overview
 
 This project contains four comprehensive workflow diagrams that illustrate the progression of software development practices:
