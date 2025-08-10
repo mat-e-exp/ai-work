@@ -1,0 +1,437 @@
+<svg viewBox="0 0 1800 1250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1800" height="1100" fill="#f8fafc"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+    <marker id="bidirectional" markerWidth="8" markerHeight="6" 
+    refX="4" refY="3" orient="auto">
+      <polygon points="0 1.5, 4 0, 8 1.5, 4 3, 8 4.5, 4 6, 0 4.5, 4 3" fill="#059669" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="900" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">Agentic AI Development Workflow</text>
+  
+  <!-- Central Orchestrator Agent -->
+  <g>
+    <circle cx="900" cy="200" r="80" fill="#8b5cf6" stroke="#7c3aed" stroke-width="3"/>
+    <text x="900" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Orchestrator</text>
+    <text x="900" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Agent</text>
+    <text x="900" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e9d5ff">Master Controller</text>
+  </g>
+  
+  <!-- Agent Communication Bus -->
+  <g>
+    <rect x="50" y="320" width="1700" height="80" rx="10" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+    <text x="900" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0c4a6e">Agent Communication Bus</text>
+    <text x="900" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#075985">Real-time messaging • State synchronization • Event coordination • Error propagation</text>
+    <text x="900" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0369a1">Redis/RabbitMQ • WebSocket connections • Async message queues</text>
+  </g>
+  
+  <!-- Stage Agents Row -->
+  <g>
+    <!-- PRD Agent -->
+    <g>
+      <rect x="70" y="450" width="200" height="100" rx="15" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+      <text x="170" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">PRD Agent</text>
+      
+      <rect x="85" y="485" width="60" height="15" rx="3" fill="#60a5fa"/>
+      <text x="115" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Claude</text>
+      
+      <rect x="155" y="485" width="60" height="15" rx="3" fill="#60a5fa"/>
+      <text x="185" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">GPT-4</text>
+      
+      <text x="170" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Requirements analysis</text>
+      <text x="170" y="527" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Story generation</text>
+      <text x="170" y="539" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Success metrics</text>
+    </g>
+    
+    <!-- Architecture Agent -->
+    <g>
+      <rect x="300" y="450" width="200" height="100" rx="15" fill="#10b981" stroke="#059669" stroke-width="2"/>
+      <text x="400" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Architecture Agent</text>
+      
+      <rect x="315" y="485" width="70" height="15" rx="3" fill="#34d399"/>
+      <text x="350" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Claude Code</text>
+      
+      <rect x="395" y="485" width="70" height="15" rx="3" fill="#34d399"/>
+      <text x="430" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Cursor AI</text>
+      
+      <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• System design</text>
+      <text x="400" y="527" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Database schema</text>
+      <text x="400" y="539" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• API specification</text>
+    </g>
+    
+    <!-- Code Generation Agent -->
+    <g>
+      <rect x="530" y="450" width="200" height="100" rx="15" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+      <text x="630" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Code Agent</text>
+      
+      <rect x="545" y="485" width="50" height="15" rx="3" fill="#fbbf24"/>
+      <text x="570" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">GitHub</text>
+      
+      <rect x="605" y="485" width="50" height="15" rx="3" fill="#fbbf24"/>
+      <text x="630" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Copilot</text>
+      
+      <rect x="665" y="485" width="30" height="15" rx="3" fill="#fbbf24"/>
+      <text x="680" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">v0</text>
+      
+      <text x="630" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Frontend/Backend</text>
+      <text x="630" y="527" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Database setup</text>
+      <text x="630" y="539" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• API endpoints</text>
+    </g>
+    
+    <!-- Testing Agent -->
+    <g>
+      <rect x="760" y="450" width="200" height="100" rx="15" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2"/>
+      <text x="860" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Testing Agent</text>
+      
+      <rect x="775" y="485" width="65" height="15" rx="3" fill="#a78bfa"/>
+      <text x="807" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">TestGPT</text>
+      
+      <rect x="850" y="485" width="75" height="15" rx="3" fill="#a78bfa"/>
+      <text x="887" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Playwright AI</text>
+      
+      <text x="860" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Unit tests</text>
+      <text x="860" y="527" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Integration tests</text>
+      <text x="860" y="539" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• E2E automation</text>
+    </g>
+    
+    <!-- Deployment Agent -->
+    <g>
+      <rect x="990" y="450" width="200" height="100" rx="15" fill="#06b6d4" stroke="#0891b2" stroke-width="2"/>
+      <text x="1090" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Deploy Agent</text>
+      
+      <rect x="1005" y="485" width="55" height="15" rx="3" fill="#22d3ee"/>
+      <text x="1032" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Vercel</text>
+      
+      <rect x="1070" y="485" width="40" height="15" rx="3" fill="#22d3ee"/>
+      <text x="1090" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">AWS</text>
+      
+      <rect x="1120" y="485" width="40" height="15" rx="3" fill="#22d3ee"/>
+      <text x="1140" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">K8s</text>
+      
+      <text x="1090" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• CI/CD pipeline</text>
+      <text x="1090" y="527" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Environment setup</text>
+      <text x="1090" y="539" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Rollback handling</text>
+    </g>
+    
+    <!-- Monitoring Agent -->
+    <g>
+      <rect x="1220" y="450" width="200" height="100" rx="15" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+      <text x="1320" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Monitor Agent</text>
+      
+      <rect x="1235" y="485" width="65" height="15" rx="3" fill="#f87171"/>
+      <text x="1267" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">DataDog</text>
+      
+      <rect x="1310" y="485" width="55" height="15" rx="3" fill="#f87171"/>
+      <text x="1337" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Sentry</text>
+      
+      <rect x="1375" y="485" width="35" height="15" rx="3" fill="#f87171"/>
+      <text x="1392" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Logs</text>
+      
+      <text x="1320" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Performance tracking</text>
+      <text x="1320" y="527" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Error detection</text>
+      <text x="1320" y="539" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Alert management</text>
+    </g>
+    
+    <!-- Quality Oversight Agent -->
+    <g>
+      <rect x="1450" y="450" width="200" height="100" rx="15" fill="#059669" stroke="#047857" stroke-width="2"/>
+      <text x="1550" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Quality Agent</text>
+      
+      <rect x="1465" y="485" width="60" height="15" rx="3" fill="#34d399"/>
+      <text x="1495" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Auto QA</text>
+      
+      <rect x="1535" y="485" width="60" height="15" rx="3" fill="#34d399"/>
+      <text x="1565" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Human</text>
+      
+      <text x="1550" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Quality gates</text>
+      <text x="1550" y="527" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Human escalation</text>
+      <text x="1550" y="539" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">• Approval workflows</text>
+    </g>
+  </g>
+  
+  <!-- Arrows between Orchestrator and Communication Bus -->
+  <path d="M 900 280 L 900 320" stroke="#8b5cf6" stroke-width="4" fill="none" marker-end="url(#bidirectional)"/>
+  
+  <!-- Arrows from Communication Bus to Agents -->
+  <path d="M 170 400 L 170 450" stroke="#059669" stroke-width="3" fill="none" marker-end="url(#bidirectional)"/>
+  <path d="M 400 400 L 400 450" stroke="#059669" stroke-width="3" fill="none" marker-end="url(#bidirectional)"/>
+  <path d="M 630 400 L 630 450" stroke="#059669" stroke-width="3" fill="none" marker-end="url(#bidirectional)"/>
+  <path d="M 860 400 L 860 450" stroke="#059669" stroke-width="3" fill="none" marker-end="url(#bidirectional)"/>
+  <path d="M 1090 400 L 1090 450" stroke="#059669" stroke-width="3" fill="none" marker-end="url(#bidirectional)"/>
+  <path d="M 1320 400 L 1320 450" stroke="#059669" stroke-width="3" fill="none" marker-end="url(#bidirectional)"/>
+  <path d="M 1550 400 L 1550 450" stroke="#059669" stroke-width="3" fill="none" marker-end="url(#bidirectional)"/>
+  
+  <!-- Sequential Flow Arrows between Agents -->
+  <path d="M 270 500 L 300 500" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 500 500 L 530 500" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 730 500 L 760 500" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 960 500 L 990 500" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 1190 500 L 1220 500" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 1420 500 L 1450 500" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Real-time Dashboard -->
+  <g>
+    <rect x="50" y="580" width="1700" height="120" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Real-Time Agent Dashboard</text>
+    
+    <!-- Dashboard Metrics -->
+    <rect x="80" y="620" width="220" height="70" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+    <text x="190" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">Workflow Status</text>
+    <text x="190" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Active agents: 7/7</text>
+    <text x="190" y="662" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Queue depth: 3 tasks</text>
+    <text x="190" y="674" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Avg response: 1.2s</text>
+    <text x="190" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Success rate: 98.5%</text>
+    
+    <rect x="320" y="620" width="220" height="70" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+    <text x="430" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803d">Quality Metrics</text>
+    <text x="430" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Code quality: 94%</text>
+    <text x="430" y="662" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Test coverage: 89%</text>
+    <text x="430" y="674" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Performance: A+</text>
+    <text x="430" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Security score: 96%</text>
+    
+    <rect x="560" y="620" width="220" height="70" rx="5" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+    <text x="670" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1d4ed8">Agent Performance</text>
+    <text x="670" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e40af">• PRD Agent: 2.1s avg</text>
+    <text x="670" y="662" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e40af">• Code Agent: 45s avg</text>
+    <text x="670" y="674" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e40af">• Test Agent: 120s avg</text>
+    <text x="670" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e40af">• Deploy Agent: 8s avg</text>
+    
+    <rect x="800" y="620" width="220" height="70" rx="5" fill="#fef2f2" stroke="#ef4444" stroke-width="1"/>
+    <text x="910" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Error Tracking</text>
+    <text x="910" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Active errors: 2</text>
+    <text x="910" y="662" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Resolved today: 5</text>
+    <text x="910" y="674" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Auto-recovery: 94%</text>
+    <text x="910" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Human escalated: 1</text>
+    
+    <rect x="1040" y="620" width="220" height="70" rx="5" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="1150" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">Communication</text>
+    <text x="1150" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Messages/sec: 42</text>
+    <text x="1150" y="662" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Bus latency: 15ms</text>
+    <text x="1150" y="674" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Active connections: 12</text>
+    <text x="1150" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Queue size: 0.2MB</text>
+    
+    <rect x="1280" y="620" width="220" height="70" rx="5" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+    <text x="1390" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Resource Usage</text>
+    <text x="1390" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#047857">• CPU usage: 68%</text>
+    <text x="1390" y="662" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#047857">• Memory: 4.2GB/8GB</text>
+    <text x="1390" y="674" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#047857">• API calls: 1,247</text>
+    <text x="1390" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#047857">• Cost today: $23.40</text>
+    
+    <rect x="1520" y="620" width="180" height="70" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+    <text x="1610" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">Human Oversight</text>
+    <text x="1610" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Reviews pending: 3</text>
+    <text x="1610" y="662" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Approvals given: 12</text>
+    <text x="1610" y="674" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Rejections: 2</text>
+    <text x="1610" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Avg review: 4.2m</text>
+  </g>
+  
+  <!-- Agentic Time Characteristics -->
+  <g>
+    <rect x="50" y="710" width="1700" height="50" rx="10" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+    <text x="900" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0c4a6e">Agentic Time Characteristics</text>
+    <text x="900" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#075985">24/7 autonomous operation • Sub-second agent responses • Parallel processing • Continuous deployment • No human wait times</text>
+  </g>
+  
+  <!-- Team Sheet Section -->
+  <g>
+    <rect x="50" y="770" width="1700" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="795" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Agentic AI Workflow Team Requirements</text>
+    
+    <!-- AI Operations -->
+    <g>
+      <rect x="70" y="810" width="240" height="60" rx="5" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="190" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0c4a6e">AI Operations</text>
+      <text x="80" y="838" font-family="Arial, sans-serif" font-size="8" fill="#075985">• AI Operations Engineer</text>
+      <text x="80" y="848" font-family="Arial, sans-serif" font-size="8" fill="#075985">• Agent Orchestration Spec.</text>
+      <text x="80" y="858" font-family="Arial, sans-serif" font-size="8" fill="#075985">• Performance Engineer</text>
+    </g>
+    
+    <!-- Quality & Architecture -->
+    <g>
+      <rect x="330" y="810" width="240" height="60" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+      <text x="450" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#15803d">Quality &amp; Architecture</text>
+      <text x="340" y="838" font-family="Arial, sans-serif" font-size="8" fill="#166534">• Quality Assurance Lead</text>
+      <text x="340" y="848" font-family="Arial, sans-serif" font-size="8" fill="#166534">• System Architect</text>
+      <text x="340" y="858" font-family="Arial, sans-serif" font-size="8" fill="#166534">• Security Engineer</text>
+    </g>
+    
+    <!-- Business & Infrastructure -->
+    <g>
+      <rect x="590" y="810" width="240" height="60" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+      <text x="710" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">Business &amp; Infrastructure</text>
+      <text x="600" y="838" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• Product Owner</text>
+      <text x="600" y="848" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• DevOps Engineer</text>
+      <text x="600" y="858" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• Cost Optimization Spec.</text>
+    </g>
+    
+    <!-- Team Size -->
+    <g>
+      <rect x="850" y="810" width="850" height="60" rx="5" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+      <text x="1275" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#059669">Total Team Size: 8 People (Minimal Human Oversight)</text>
+      <text x="860" y="838" font-family="Arial, sans-serif" font-size="8" fill="#047857">• 24/7 autonomous agent operation • Human oversight for strategic decisions • Exception handling &amp; escalation management</text>
+      <text x="860" y="848" font-family="Arial, sans-serif" font-size="8" fill="#047857">• Agent performance optimization • Quality gate supervision • Business alignment validation • Infrastructure monitoring</text>
+      <text x="860" y="858" font-family="Arial, sans-serif" font-size="8" fill="#047857">• Cost &amp; resource management • Security compliance oversight • Continuous system improvement • Agent coordination protocols</text>
+    </g>
+  </g>
+
+  <!-- Agent Strengths and Weaknesses Section -->
+  <g>
+    <rect x="50" y="900" width="1700" height="120" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="900" y="925" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Agentic AI Workflow Strengths and Weaknesses</text>
+    
+    <!-- Scalability Strengths -->
+    <text x="150" y="945" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Scalability</text>
+    <text x="150" y="958" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Independent scaling</text>
+    <text x="150" y="968" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Horizontal deployment</text>
+    <text x="150" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Load balancing</text>
+    
+    <text x="150" y="993" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="150" y="1006" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Coordination overhead</text>
+    
+    <!-- Resilience -->
+    <text x="350" y="945" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Resilience</text>
+    <text x="350" y="958" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Fault isolation</text>
+    <text x="350" y="968" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Auto-recovery</text>
+    <text x="350" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Circuit breakers</text>
+    
+    <text x="350" y="993" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="350" y="1006" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Cascading failures</text>
+    
+    <!-- Modularity -->
+    <text x="550" y="945" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Modularity</text>
+    <text x="550" y="958" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Independent updates</text>
+    <text x="550" y="968" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Plugin architecture</text>
+    <text x="550" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Version management</text>
+    
+    <text x="550" y="993" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="550" y="1006" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Integration complexity</text>
+    
+    <!-- Intelligence -->
+    <text x="750" y="945" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Intelligence</text>
+    <text x="750" y="958" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Context awareness</text>
+    <text x="750" y="968" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Learning from history</text>
+    <text x="750" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Predictive analytics</text>
+    
+    <text x="750" y="993" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="750" y="1006" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Unpredictable behavior</text>
+    
+    <!-- Collaboration -->
+    <text x="950" y="945" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Collaboration</text>
+    <text x="950" y="958" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Inter-agent messaging</text>
+    <text x="950" y="968" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Shared context</text>
+    <text x="950" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Coordination protocols</text>
+    
+    <text x="950" y="993" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="950" y="1006" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Message bottlenecks</text>
+    
+    <!-- Observability -->
+    <text x="1150" y="945" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Observability</text>
+    <text x="1150" y="958" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• End-to-end tracing</text>
+    <text x="1150" y="968" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Performance metrics</text>
+    <text x="1150" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Real-time monitoring</text>
+    
+    <text x="1150" y="993" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="1150" y="1006" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Monitoring overhead</text>
+    
+    <!-- Human Integration -->
+    <text x="1350" y="945" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Human Oversight</text>
+    <text x="1350" y="958" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Approval workflows</text>
+    <text x="1350" y="968" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Escalation paths</text>
+    <text x="1350" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Override capabilities</text>
+    
+    <text x="1350" y="993" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="1350" y="1006" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Trust calibration</text>
+    
+    <!-- Cost Efficiency -->
+    <text x="1550" y="945" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Cost Efficiency</text>
+    <text x="1550" y="958" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Resource sharing</text>
+    <text x="1550" y="968" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Demand scaling</text>
+    <text x="1550" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• API optimization</text>
+    
+    <text x="1550" y="993" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="1550" y="1006" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• High initial cost</text>
+  </g>
+  
+  <!-- Orchestrator connection lines -->
+  <path d="M 830 160 L 170 440" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-dasharray="5,5" opacity="0.6"/>
+  <path d="M 870 160 L 400 440" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-dasharray="5,5" opacity="0.6"/>
+  <path d="M 900 160 L 630 440" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-dasharray="5,5" opacity="0.6"/>
+  <path d="M 930 160 L 860 440" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-dasharray="5,5" opacity="0.6"/>
+  <path d="M 930 160 L 1090 440" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-dasharray="5,5" opacity="0.6"/>
+  <path d="M 950 170 L 1320 440" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-dasharray="5,5" opacity="0.6"/>
+  <path d="M 970 180 L 1550 440" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-dasharray="5,5" opacity="0.6"/>
+  
+  <!-- Use Cases Section -->
+  <g>
+    <rect x="50" y="1030" width="1700" height="200" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="1055" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Agentic AI Workflow Use Cases</text>
+    
+    <!-- Solo Founders -->
+    <g>
+      <rect x="70" y="1075" width="320" height="120" rx="5" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="230" y="1095" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0c4a6e">Solo Founders &amp; Indie Hackers</text>
+      <text x="80" y="1112" font-family="Arial, sans-serif" font-size="9" fill="#075985">• MVP development at scale</text>
+      <text x="80" y="1125" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Full-stack app creation</text>
+      <text x="80" y="1138" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Automated DevOps pipeline</text>
+      <text x="80" y="1151" font-family="Arial, sans-serif" font-size="9" fill="#075985">• 24/7 autonomous development</text>
+      <text x="80" y="1164" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Cost-effective scaling</text>
+      <text x="80" y="1177" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Rapid iteration cycles</text>
+    </g>
+    
+    <!-- Innovation Labs -->
+    <g>
+      <rect x="410" y="1075" width="320" height="120" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+      <text x="570" y="1095" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">Innovation Labs &amp; R&amp;D Teams</text>
+      <text x="420" y="1112" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Rapid prototyping</text>
+      <text x="420" y="1125" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Experimental features</text>
+      <text x="420" y="1138" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• AI-first development</text>
+      <text x="420" y="1151" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Continuous experimentation</text>
+      <text x="420" y="1164" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Bleeding-edge tech adoption</text>
+      <text x="420" y="1177" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Proof of concept development</text>
+    </g>
+    
+    <!-- Startups -->
+    <g>
+      <rect x="750" y="1075" width="320" height="120" rx="5" fill="#f0fdf4" stroke="#10b981" stroke-width="1"/>
+      <text x="910" y="1095" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14532d">High-Growth Startups</text>
+      <text x="760" y="1112" font-family="Arial, sans-serif" font-size="9" fill="#166534">• 10x development velocity</text>
+      <text x="760" y="1125" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Automated scaling</text>
+      <text x="760" y="1138" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Self-healing systems</text>
+      <text x="760" y="1151" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Continuous deployment</text>
+      <text x="760" y="1164" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Market speed advantage</text>
+      <text x="760" y="1177" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Competitive differentiation</text>
+    </g>
+    
+    <!-- Enterprise -->
+    <g>
+      <rect x="1090" y="1075" width="320" height="120" rx="5" fill="#fdf4ff" stroke="#a855f7" stroke-width="1"/>
+      <text x="1250" y="1095" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#581c87">Forward-Thinking Enterprises</text>
+      <text x="1100" y="1112" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Digital transformation</text>
+      <text x="1100" y="1125" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Legacy modernization</text>
+      <text x="1100" y="1138" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• AI-augmented teams</text>
+      <text x="1100" y="1151" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Competitive advantage</text>
+      <text x="1100" y="1164" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Innovation at scale</text>
+      <text x="1100" y="1177" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Operational efficiency</text>
+    </g>
+    
+    <!-- Why Agentic -->
+    <g>
+      <rect x="1430" y="1075" width="320" height="120" rx="5" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+      <text x="1590" y="1095" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">Why Agentic AI Works Here</text>
+      <text x="1440" y="1112" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Autonomous 24/7 development</text>
+      <text x="1440" y="1125" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Self-organizing collaboration</text>
+      <text x="1440" y="1138" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Minimal human intervention</text>
+      <text x="1440" y="1151" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Exponential productivity gains</text>
+      <text x="1440" y="1164" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Future-proof approach</text>
+      <text x="1440" y="1177" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Continuous evolution</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,548 @@
+<svg viewBox="0 0 1800 1150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1800" height="1050" fill="#f8fafc"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+    <marker id="blockade" markerWidth="12" markerHeight="8" 
+    refX="6" refY="4" orient="auto">
+      <rect x="0" y="1" width="12" height="6" fill="#dc2626" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="900" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">Traditional Pre-AI Development Workflow</text>
+  
+  <!-- Manual Reports Header -->
+  <g>
+    <rect x="50" y="60" width="1700" height="50" rx="5" fill="#f0f9ff" stroke="#93c5fd" stroke-width="2"/>
+    <text x="900" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">Manual Status Reporting</text>
+    <text x="900" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e3a8a">Weekly meetings • Email updates • Spreadsheet tracking • Manual documentation • Status presentations</text>
+  </g>
+  
+  <!-- Traditional Human Workflow Box -->
+  <g>
+    <rect x="50" y="130" width="1700" height="200" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Traditional Process-Centric Workflow</text>
+    
+    <!-- Stage 1: Requirements -->
+    <g>
+      <rect x="70" y="180" width="240" height="120" rx="10" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+      <text x="190" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">1. Requirements</text>
+      
+      <rect x="100" y="220" width="80" height="20" rx="3" fill="#60a5fa"/>
+      <text x="140" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Interviews</text>
+      
+      <rect x="200" y="220" width="80" height="20" rx="3" fill="#60a5fa"/>
+      <text x="240" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Documents</text>
+      
+      <text x="190" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Manual process:</text>
+      <text x="190" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Stakeholder meetings</text>
+      <text x="190" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Written specifications</text>
+      <text x="190" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Review cycles</text>
+    </g>
+    
+    <!-- Gate 1: Requirements Approval -->
+    <g>
+      <circle cx="321" cy="240" r="20" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+      <text x="321" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">GATE</text>
+    </g>
+    
+    
+    <!-- Stage 2: Design -->
+    <g>
+      <rect x="342" y="180" width="240" height="120" rx="10" fill="#10b981" stroke="#059669" stroke-width="2"/>
+      <text x="462" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">2. System Design</text>
+      
+      <rect x="372" y="220" width="80" height="20" rx="3" fill="#34d399"/>
+      <text x="412" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Visio</text>
+      
+      <rect x="472" y="220" width="80" height="20" rx="3" fill="#34d399"/>
+      <text x="512" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Word Docs</text>
+      
+      <text x="462" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Manual process:</text>
+      <text x="462" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Hand-drawn diagrams</text>
+      <text x="462" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Architecture documents</text>
+      <text x="462" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Database ERDs</text>
+    </g>
+    
+    <!-- Gate 2: Design Review -->
+    <g>
+      <circle cx="593" cy="240" r="20" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+      <text x="593" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">GATE</text>
+    </g>
+    
+    
+    <!-- Stage 3: Development -->
+    <g>
+      <rect x="614" y="180" width="240" height="120" rx="10" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+      <text x="734" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3. Development</text>
+      
+      <rect x="634" y="220" width="60" height="20" rx="3" fill="#fbbf24"/>
+      <text x="664" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">IDE</text>
+      
+      <rect x="704" y="220" width="60" height="20" rx="3" fill="#fbbf24"/>
+      <text x="734" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Git</text>
+      
+      <rect x="774" y="220" width="60" height="20" rx="3" fill="#fbbf24"/>
+      <text x="804" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Stack O.</text>
+      
+      <text x="734" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Manual process:</text>
+      <text x="734" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Hand-coded everything</text>
+      <text x="734" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Individual work</text>
+      <text x="734" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Code reviews</text>
+    </g>
+    
+    <!-- Gate 3: Code Review -->
+    <g>
+      <circle cx="865" cy="240" r="20" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+      <text x="865" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">GATE</text>
+    </g>
+    
+    
+    <!-- Stage 4: Testing -->
+    <g>
+      <rect x="886" y="180" width="240" height="120" rx="10" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2"/>
+      <text x="1006" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">4. Testing</text>
+      
+      <rect x="916" y="220" width="80" height="20" rx="3" fill="#a78bfa"/>
+      <text x="956" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Manual QA</text>
+      
+      <rect x="1016" y="220" width="80" height="20" rx="3" fill="#a78bfa"/>
+      <text x="1056" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Test Plans</text>
+      
+      <text x="1006" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Manual process:</text>
+      <text x="1006" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Test case writing</text>
+      <text x="1006" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Manual execution</text>
+      <text x="1006" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Bug tracking</text>
+    </g>
+    
+    <!-- Gate 4: QA Sign-off -->
+    <g>
+      <circle cx="1137" cy="240" r="20" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+      <text x="1137" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">GATE</text>
+    </g>
+    
+    
+    <!-- Stage 5: Deployment -->
+    <g>
+      <rect x="1158" y="180" width="240" height="120" rx="10" fill="#06b6d4" stroke="#0891b2" stroke-width="2"/>
+      <text x="1278" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">5. Deployment</text>
+      
+      <rect x="1178" y="220" width="70" height="20" rx="3" fill="#22d3ee"/>
+      <text x="1213" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">FTP</text>
+      
+      <rect x="1258" y="220" width="50" height="20" rx="3" fill="#22d3ee"/>
+      <text x="1283" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Scripts</text>
+      
+      <rect x="1318" y="220" width="50" height="20" rx="3" fill="#22d3ee"/>
+      <text x="1343" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">SSH</text>
+      
+      <text x="1278" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Manual process:</text>
+      <text x="1278" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Server configuration</text>
+      <text x="1278" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">File uploads</text>
+      <text x="1278" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Manual checks</text>
+    </g>
+    
+    <!-- Gate 5: Go-Live Approval -->
+    <g>
+      <circle cx="1409" cy="240" r="20" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+      <text x="1409" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">GATE</text>
+    </g>
+    
+    
+    <!-- Stage 6: Maintenance -->
+    <g>
+      <rect x="1430" y="180" width="240" height="120" rx="10" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+      <text x="1550" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">6. Maintenance</text>
+      
+      <rect x="1460" y="220" width="80" height="20" rx="3" fill="#f87171"/>
+      <text x="1500" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Log Files</text>
+      
+      <rect x="1560" y="220" width="80" height="20" rx="3" fill="#f87171"/>
+      <text x="1600" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Email Alerts</text>
+      
+      <text x="1550" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Manual process:</text>
+      <text x="1550" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Log monitoring</text>
+      <text x="1550" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Manual fixes</text>
+      <text x="1550" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Performance tuning</text>
+    </g>
+  </g>
+  
+  
+  <!-- Manual Oversight Processes -->
+  <g>
+    <rect x="50" y="380" width="1700" height="200" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Manual Process Oversight</text>
+    
+    <!-- Stage 1 Details -->
+    <rect x="70" y="420" width="240" height="130" rx="5" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="190" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Business Analysis</text>
+    
+    <text x="80" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#374151">Manual Review:</text>
+    <text x="80" y="467" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Stakeholder interviews</text>
+    <text x="80" y="477" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Market research</text>
+    <text x="80" y="487" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Competitive analysis</text>
+    <text x="80" y="497" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Budget planning</text>
+    <text x="80" y="507" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Timeline estimation</text>
+    <text x="80" y="517" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Risk assessment</text>
+    
+    <rect x="80" y="525" width="70" height="15" rx="3" fill="#3b82f6"/>
+    <text x="115" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">2-4 weeks</text>
+    
+    <!-- Stage 2 Details -->
+    <rect x="342" y="420" width="240" height="130" rx="5" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="462" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Architecture Review</text>
+    
+    <text x="352" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#374151">Manual Review:</text>
+    <text x="352" y="467" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Technical feasibility</text>
+    <text x="352" y="477" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Security considerations</text>
+    <text x="352" y="487" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Scalability planning</text>
+    <text x="352" y="497" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Technology selection</text>
+    <text x="352" y="507" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Integration planning</text>
+    <text x="352" y="517" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Performance requirements</text>
+    
+    <rect x="352" y="525" width="70" height="15" rx="3" fill="#3b82f6"/>
+    <text x="387" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">3-6 weeks</text>
+    
+    <!-- Stage 3 Details -->
+    <rect x="614" y="420" width="240" height="130" rx="5" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="734" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Code Review Process</text>
+    
+    <text x="624" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#374151">Manual Review:</text>
+    <text x="624" y="467" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Peer code reviews</text>
+    <text x="624" y="477" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Style guide compliance</text>
+    <text x="624" y="487" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Logic validation</text>
+    <text x="624" y="497" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Performance checks</text>
+    <text x="624" y="507" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Security audits</text>
+    <text x="624" y="517" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Documentation review</text>
+    
+    <rect x="624" y="525" width="80" height="15" rx="3" fill="#3b82f6"/>
+    <text x="664" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">8-16 weeks</text>
+    
+    <!-- Stage 4 Details -->
+    <rect x="886" y="420" width="240" height="130" rx="5" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="1006" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Quality Assurance</text>
+    
+    <text x="896" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#374151">Manual Testing:</text>
+    <text x="896" y="467" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Test case creation</text>
+    <text x="896" y="477" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Manual test execution</text>
+    <text x="896" y="487" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Bug documentation</text>
+    <text x="896" y="497" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Regression testing</text>
+    <text x="896" y="507" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• User acceptance testing</text>
+    <text x="896" y="517" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Performance testing</text>
+    
+    <rect x="896" y="525" width="70" height="15" rx="3" fill="#3b82f6"/>
+    <text x="931" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">4-8 weeks</text>
+    
+    <!-- Stage 5 Details -->
+    <rect x="1158" y="420" width="240" height="130" rx="5" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="1278" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Deploy Management</text>
+    
+    <text x="1168" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#374151">Manual Process:</text>
+    <text x="1168" y="467" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Server preparation</text>
+    <text x="1168" y="477" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Database migration</text>
+    <text x="1168" y="487" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Configuration setup</text>
+    <text x="1168" y="497" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Rollback planning</text>
+    <text x="1168" y="507" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Go-live coordination</text>
+    <text x="1168" y="517" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Post-deploy validation</text>
+    
+    <rect x="1168" y="525" width="70" height="15" rx="3" fill="#3b82f6"/>
+    <text x="1203" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">1-2 weeks</text>
+    
+    <!-- Stage 6 Details -->
+    <rect x="1430" y="420" width="240" height="130" rx="5" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="1550" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Operations Support</text>
+    
+    <text x="1440" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#374151">Manual Monitoring:</text>
+    <text x="1440" y="467" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Log file analysis</text>
+    <text x="1440" y="477" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Performance monitoring</text>
+    <text x="1440" y="487" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• User issue tracking</text>
+    <text x="1440" y="497" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• System health checks</text>
+    <text x="1440" y="507" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Backup verification</text>
+    <text x="1440" y="517" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">• Security monitoring</text>
+    
+    <rect x="1440" y="525" width="70" height="15" rx="3" fill="#3b82f6"/>
+    <text x="1475" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">Ongoing</text>
+  </g>
+  
+  <!-- Bidirectional arrows between Process boxes and Manual Oversight sections -->
+  <path d="M 190 300 L 190 420" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 200 420 L 200 300" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 462 300 L 462 420" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 472 420 L 472 300" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 734 300 L 734 420" stroke="#f59e0b" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 744 420 L 744 300" stroke="#f59e0b" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 1006 300 L 1006 420" stroke="#8b5cf6" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1016 420 L 1016 300" stroke="#8b5cf6" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 1278 300 L 1278 420" stroke="#06b6d4" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1288 420 L 1288 300" stroke="#06b6d4" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 1550 300 L 1550 420" stroke="#ef4444" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1560 420 L 1560 300" stroke="#ef4444" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  
+  <!-- Team Sheet Section -->
+  <g>
+    <rect x="50" y="590" width="1700" height="100" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Traditional Workflow Team Requirements</text>
+    
+    <!-- Project Management -->
+    <g>
+      <rect x="70" y="625" width="200" height="55" rx="5" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="170" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0c4a6e">Project Management</text>
+      <text x="80" y="651" font-family="Arial, sans-serif" font-size="8" fill="#075985">• Project Manager</text>
+      <text x="80" y="660" font-family="Arial, sans-serif" font-size="8" fill="#075985">• Business Analyst</text>
+      <text x="80" y="669" font-family="Arial, sans-serif" font-size="8" fill="#075985">• Release Manager</text>
+    </g>
+    
+    <!-- Technical Development -->
+    <g>
+      <rect x="290" y="625" width="200" height="55" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+      <text x="390" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#15803d">Technical Development</text>
+      <text x="300" y="651" font-family="Arial, sans-serif" font-size="8" fill="#166534">• System Architect</text>
+      <text x="300" y="660" font-family="Arial, sans-serif" font-size="8" fill="#166534">• Senior Developer</text>
+      <text x="300" y="669" font-family="Arial, sans-serif" font-size="8" fill="#166534">• Junior Developer</text>
+    </g>
+    
+    <!-- Quality & Testing -->
+    <g>
+      <rect x="510" y="625" width="200" height="55" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+      <text x="610" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">Quality &amp; Testing</text>
+      <text x="520" y="651" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• QA Tester</text>
+      <text x="520" y="660" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• Security Specialist</text>
+      <text x="520" y="669" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• Performance Tester</text>
+    </g>
+    
+    <!-- Design & UX -->
+    <g>
+      <rect x="730" y="625" width="200" height="55" rx="5" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="1"/>
+      <text x="830" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7c3aed">Design &amp; UX</text>
+      <text x="740" y="651" font-family="Arial, sans-serif" font-size="8" fill="#6b21a8">• UI/UX Designer</text>
+      <text x="740" y="660" font-family="Arial, sans-serif" font-size="8" fill="#6b21a8">• Visual Designer</text>
+      <text x="740" y="669" font-family="Arial, sans-serif" font-size="8" fill="#6b21a8">• User Researcher</text>
+    </g>
+    
+    <!-- Infrastructure -->
+    <g>
+      <rect x="950" y="625" width="200" height="55" rx="5" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+      <text x="1050" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1d4ed8">Infrastructure</text>
+      <text x="960" y="651" font-family="Arial, sans-serif" font-size="8" fill="#1e40af">• DevOps Engineer</text>
+      <text x="960" y="660" font-family="Arial, sans-serif" font-size="8" fill="#1e40af">• Database Admin</text>
+      <text x="960" y="669" font-family="Arial, sans-serif" font-size="8" fill="#1e40af">• System Admin</text>
+    </g>
+    
+    <!-- Documentation -->
+    <g>
+      <rect x="1170" y="625" width="200" height="55" rx="5" fill="#fef2f2" stroke="#ef4444" stroke-width="1"/>
+      <text x="1270" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#dc2626">Documentation</text>
+      <text x="1180" y="651" font-family="Arial, sans-serif" font-size="8" fill="#991b1b">• Technical Writer</text>
+      <text x="1180" y="660" font-family="Arial, sans-serif" font-size="8" fill="#991b1b">• Documentation Lead</text>
+      <text x="1180" y="669" font-family="Arial, sans-serif" font-size="8" fill="#991b1b">• Training Specialist</text>
+    </g>
+    
+    <!-- Team Size -->
+    <g>
+      <rect x="1390" y="625" width="310" height="55" rx="5" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+      <text x="1545" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#059669">Total Team Size: 12-15 People</text>
+      <text x="1400" y="651" font-family="Arial, sans-serif" font-size="8" fill="#047857">• High coordination overhead</text>
+      <text x="1400" y="660" font-family="Arial, sans-serif" font-size="8" fill="#047857">• Clear role separation</text>
+      <text x="1400" y="669" font-family="Arial, sans-serif" font-size="8" fill="#047857">• Sequential dependencies</text>
+    </g>
+  </g>
+
+  <!-- Traditional Problems and Weaknesses -->
+  <g>
+    <rect x="50" y="720" width="1700" height="200" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="900" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Traditional Workflow Strengths and Weaknesses</text>
+    
+    <!-- Traditional Strengths -->
+    <text x="175" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Process Control</text>
+    <text x="175" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Clear phase gates</text>
+    <text x="175" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Defined deliverables</text>
+    <text x="175" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Predictable process</text>
+    <text x="175" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Risk mitigation</text>
+    <text x="175" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality checkpoints</text>
+    
+    <text x="175" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Limitations</text>
+    <text x="175" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• 6-12 month timelines</text>
+    <text x="175" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Approval waiting periods</text>
+    <text x="175" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Sequential dependencies</text>
+    <text x="175" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Change resistance</text>
+    <text x="175" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Late feedback loops</text>
+    
+    <!-- Documentation Strengths -->
+    <text x="365" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Documentation</text>
+    <text x="365" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Thorough specifications</text>
+    <text x="365" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Audit trail</text>
+    <text x="365" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Compliance friendly</text>
+    <text x="365" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Knowledge preservation</text>
+    <text x="365" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Detailed planning</text>
+    
+    <text x="365" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Limitations</text>
+    <text x="365" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Manual effort intensive</text>
+    <text x="365" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Often becomes outdated</text>
+    <text x="365" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Version control issues</text>
+    <text x="365" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Maintenance burden</text>
+    <text x="365" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Consistency challenges</text>
+    
+    <!-- Expert Review Strengths -->
+    <text x="555" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Expert Review</text>
+    <text x="555" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Deep domain knowledge</text>
+    <text x="555" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Experience-based decisions</text>
+    <text x="555" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Context understanding</text>
+    <text x="555" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Stakeholder alignment</text>
+    <text x="555" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Business judgment</text>
+    
+    <text x="555" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Limitations</text>
+    <text x="555" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Expert bottlenecks</text>
+    <text x="555" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Availability constraints</text>
+    <text x="555" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Subjective decisions</text>
+    <text x="555" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Knowledge silos</text>
+    <text x="555" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Inconsistent standards</text>
+    
+    <!-- Stability Strengths -->
+    <text x="745" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Stability</text>
+    <text x="745" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Proven methodologies</text>
+    <text x="745" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Mature tools</text>
+    <text x="745" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Industry standards</text>
+    <text x="745" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Established practices</text>
+    <text x="745" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Predictable outcomes</text>
+    
+    <text x="745" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Limitations</text>
+    <text x="745" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Slow to adapt</text>
+    <text x="745" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Innovation resistance</text>
+    <text x="745" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Technology lag</text>
+    <text x="745" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Process rigidity</text>
+    <text x="745" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Market timing misses</text>
+    
+    <!-- Testing Rigor -->
+    <text x="935" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Testing Rigor</text>
+    <text x="935" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Thorough test plans</text>
+    <text x="935" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Manual verification</text>
+    <text x="935" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Edge case coverage</text>
+    <text x="935" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• User acceptance focus</text>
+    <text x="935" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality validation</text>
+    
+    <text x="935" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Limitations</text>
+    <text x="935" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Time-consuming cycles</text>
+    <text x="935" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Manual execution errors</text>
+    <text x="935" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Limited regression testing</text>
+    <text x="935" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Late defect discovery</text>
+    <text x="935" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Environment inconsistencies</text>
+    
+    <!-- Risk Management -->
+    <text x="1125" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Risk Management</text>
+    <text x="1125" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Careful planning</text>
+    <text x="1125" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Conservative approach</text>
+    <text x="1125" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Multiple approvals</text>
+    <text x="1125" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Safety checkpoints</text>
+    <text x="1125" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Rollback planning</text>
+    
+    <text x="1125" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Limitations</text>
+    <text x="1125" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Only 16% complete success</text>
+    <text x="1125" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• 29% on-time delivery</text>
+    <text x="1125" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• 27% on-budget delivery</text>
+    <text x="1125" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• 19% project failure rate</text>
+    <text x="1125" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• High rework costs</text>
+    
+    <!-- Resource Control -->
+    <text x="1315" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Resource Control</text>
+    <text x="1315" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Budget oversight</text>
+    <text x="1315" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Timeline management</text>
+    <text x="1315" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Resource allocation</text>
+    <text x="1315" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Cost tracking</text>
+    <text x="1315" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Scope management</text>
+    
+    <text x="1315" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Limitations</text>
+    <text x="1315" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• High labor costs</text>
+    <text x="1315" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Inefficient resource use</text>
+    <text x="1315" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Opportunity costs</text>
+    <text x="1315" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Scale limitations</text>
+    <text x="1315" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Market timing losses</text>
+    
+    <!-- Compliance Strengths -->
+    <text x="1505" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Compliance</text>
+    <text x="1505" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Regulatory alignment</text>
+    <text x="1505" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Audit readiness</text>
+    <text x="1505" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Standards adherence</text>
+    <text x="1505" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Documentation trails</text>
+    <text x="1505" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Governance structure</text>
+    
+    <text x="1505" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Limitations</text>
+    <text x="1505" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Bureaucratic overhead</text>
+    <text x="1505" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Innovation constraints</text>
+    <text x="1505" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Competitive disadvantage</text>
+    <text x="1505" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Agility limitations</text>
+    <text x="1505" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Change resistance</text>
+  </g>
+  
+  <!-- Use Cases Section -->
+  <g>
+    <rect x="50" y="940" width="1700" height="180" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="965" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Traditional Workflow Use Cases</text>
+    
+    <!-- Banking & Finance -->
+    <g>
+      <rect x="100" y="985" width="300" height="110" rx="5" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="250" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0c4a6e">Banking &amp; Financial Services</text>
+      <text x="110" y="1025" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Core banking systems</text>
+      <text x="110" y="1038" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Trading platforms</text>
+      <text x="110" y="1051" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Risk management systems</text>
+      <text x="110" y="1064" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Regulatory compliance software</text>
+      <text x="110" y="1077" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Payment processing systems</text>
+    </g>
+    
+    <!-- Government -->
+    <g>
+      <rect x="420" y="985" width="300" height="110" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+      <text x="570" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">Government &amp; Public Sector</text>
+      <text x="430" y="1025" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Citizen service portals</text>
+      <text x="430" y="1038" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Tax collection systems</text>
+      <text x="430" y="1051" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Defense applications</text>
+      <text x="430" y="1064" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Infrastructure management</text>
+      <text x="430" y="1077" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Census and statistics systems</text>
+    </g>
+    
+    <!-- Healthcare -->
+    <g>
+      <rect x="740" y="985" width="300" height="110" rx="5" fill="#f0fdf4" stroke="#10b981" stroke-width="1"/>
+      <text x="890" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14532d">Healthcare &amp; Life Sciences</text>
+      <text x="750" y="1025" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Electronic health records (EHR)</text>
+      <text x="750" y="1038" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Medical device software</text>
+      <text x="750" y="1051" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Clinical trial management</text>
+      <text x="750" y="1064" font-family="Arial, sans-serif" font-size="9" fill="#166534">• FDA-regulated systems</text>
+      <text x="750" y="1077" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Hospital management systems</text>
+    </g>
+    
+    <!-- Legacy Enterprise -->
+    <g>
+      <rect x="1060" y="985" width="300" height="110" rx="5" fill="#fdf4ff" stroke="#a855f7" stroke-width="1"/>
+      <text x="1210" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#581c87">Legacy Enterprise Systems</text>
+      <text x="1070" y="1025" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• ERP implementations</text>
+      <text x="1070" y="1038" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Supply chain management</text>
+      <text x="1070" y="1051" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Manufacturing control systems</text>
+      <text x="1070" y="1064" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Telecommunications infrastructure</text>
+      <text x="1070" y="1077" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Utility management systems</text>
+    </g>
+    
+    <!-- Why Traditional -->
+    <g>
+      <rect x="1380" y="985" width="320" height="110" rx="5" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+      <text x="1540" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">Why Traditional Works Here</text>
+      <text x="1390" y="1025" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Regulatory requirements demand documentation</text>
+      <text x="1390" y="1038" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Change control and audit trails required</text>
+      <text x="1390" y="1051" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• High-risk environments need predictability</text>
+      <text x="1390" y="1064" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Stakeholders require formal approvals</text>
+      <text x="1390" y="1077" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Integration with legacy systems critical</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,514 @@
+<svg viewBox="0 0 1800 1160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1800" height="1160" fill="#f8fafc"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="900" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">Agile Development Workflow</text>
+  
+  <!-- Sprint Reporting Box - Above All Stages -->
+  <g>
+    <rect x="50" y="60" width="1700" height="50" rx="5" fill="#f0f9ff" stroke="#bae6fd" stroke-width="2"/>
+    <text x="900" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0369a1">Sprint Dashboard &amp; Daily Standups</text>
+    <text x="900" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#0c4a6e">Sprint velocity • Burndown charts • Team capacity • Story points • Blockers • Daily progress • Retrospective insights</text>
+  </g>
+  
+  <!-- Agile Workflow Box -->
+  <g>
+    <rect x="50" y="130" width="1700" height="200" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Agile Sprint Workflow</text>
+    
+    <!-- Stage 1: Sprint Planning -->
+    <g>
+      <rect x="70" y="180" width="240" height="120" rx="10" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+      <text x="190" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">1. Sprint Planning</text>
+      
+      <rect x="100" y="220" width="80" height="20" rx="3" fill="#60a5fa"/>
+      <text x="140" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Jira</text>
+      
+      <rect x="200" y="220" width="80" height="20" rx="3" fill="#60a5fa"/>
+      <text x="240" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Azure DevOps</text>
+      
+      <text x="190" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Sprint activities:</text>
+      <text x="190" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Backlog grooming</text>
+      <text x="190" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Story estimation</text>
+      <text x="190" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Sprint goals</text>
+    </g>
+    
+    <!-- Arrow 1 -->
+    <path d="M 310 240 L 332 240" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Stage 2: Design Sprint -->
+    <g>
+      <rect x="342" y="180" width="240" height="120" rx="10" fill="#10b981" stroke="#059669" stroke-width="2"/>
+      <text x="462" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">2. Design Sprint</text>
+      
+      <rect x="372" y="220" width="80" height="20" rx="3" fill="#34d399"/>
+      <text x="412" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Figma</text>
+      
+      <rect x="472" y="220" width="80" height="20" rx="3" fill="#34d399"/>
+      <text x="512" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Miro</text>
+      
+      <text x="462" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Collaborative design:</text>
+      <text x="462" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">User story mapping</text>
+      <text x="462" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Wireframing</text>
+      <text x="462" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Architecture spikes</text>
+    </g>
+    
+    <!-- Arrow 2 -->
+    <path d="M 582 240 L 604 240" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Stage 3: Development -->
+    <g>
+      <rect x="614" y="180" width="240" height="120" rx="10" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+      <text x="734" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3. Development</text>
+      
+      <rect x="634" y="220" width="60" height="20" rx="3" fill="#fbbf24"/>
+      <text x="664" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Git</text>
+      
+      <rect x="704" y="220" width="60" height="20" rx="3" fill="#fbbf24"/>
+      <text x="734" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">VS Code</text>
+      
+      <rect x="774" y="220" width="60" height="20" rx="3" fill="#fbbf24"/>
+      <text x="804" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">GitHub</text>
+      
+      <text x="734" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Iterative coding:</text>
+      <text x="734" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Pair programming</text>
+      <text x="734" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Code reviews</text>
+      <text x="734" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">TDD practices</text>
+    </g>
+    
+    <!-- Arrow 3 -->
+    <path d="M 854 240 L 876 240" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Stage 4: Testing -->
+    <g>
+      <rect x="886" y="180" width="240" height="120" rx="10" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2"/>
+      <text x="1006" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">4. Testing</text>
+      
+      <rect x="916" y="220" width="80" height="20" rx="3" fill="#a78bfa"/>
+      <text x="956" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Jest/Mocha</text>
+      
+      <rect x="1016" y="220" width="80" height="20" rx="3" fill="#a78bfa"/>
+      <text x="1056" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Selenium</text>
+      
+      <text x="1006" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Continuous testing:</text>
+      <text x="1006" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Unit testing</text>
+      <text x="1006" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Integration tests</text>
+      <text x="1006" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">User acceptance</text>
+    </g>
+    
+    <!-- Arrow 4 -->
+    <path d="M 1126 240 L 1148 240" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Stage 5: CI/CD -->
+    <g>
+      <rect x="1158" y="180" width="240" height="120" rx="10" fill="#06b6d4" stroke="#0891b2" stroke-width="2"/>
+      <text x="1278" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">5. CI/CD</text>
+      
+      <rect x="1178" y="220" width="70" height="20" rx="3" fill="#22d3ee"/>
+      <text x="1213" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Jenkins</text>
+      
+      <rect x="1258" y="220" width="50" height="20" rx="3" fill="#22d3ee"/>
+      <text x="1283" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">GitLab</text>
+      
+      <rect x="1318" y="220" width="50" height="20" rx="3" fill="#22d3ee"/>
+      <text x="1343" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Docker</text>
+      
+      <text x="1278" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Automated pipeline:</text>
+      <text x="1278" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Build automation</text>
+      <text x="1278" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Deploy to staging</text>
+      <text x="1278" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Production release</text>
+    </g>
+    
+    <!-- Arrow 5 -->
+    <path d="M 1398 240 L 1420 240" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Stage 6: Review and Retro -->
+    <g>
+      <rect x="1430" y="180" width="240" height="120" rx="10" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+      <text x="1550" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">6. Review &amp; Retro</text>
+      
+      <rect x="1460" y="220" width="80" height="20" rx="3" fill="#f87171"/>
+      <text x="1500" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Confluence</text>
+      
+      <rect x="1560" y="220" width="80" height="20" rx="3" fill="#f87171"/>
+      <text x="1600" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Teams/Slack</text>
+      
+      <text x="1550" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Sprint closure:</text>
+      <text x="1550" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Sprint review</text>
+      <text x="1550" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Retrospective</text>
+      <text x="1550" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Next sprint prep</text>
+    </g>
+  </g>
+  
+  <!-- Feedback loop arrow from stage 6 back to stage 1 -->
+  <path d="M 1550 300 L 1550 340 L 190 340 L 190 300" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  
+  <!-- Arrows from stages to sprint dashboard -->
+  <path d="M 190 180 L 190 110" stroke="#0369a1" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 462 180 L 462 110" stroke="#0369a1" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 734 180 L 734 110" stroke="#0369a1" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1006 180 L 1006 110" stroke="#0369a1" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1278 180 L 1278 110" stroke="#0369a1" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1550 180 L 1550 110" stroke="#0369a1" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <!-- Agile Team Roles -->
+  <g>
+    <rect x="50" y="380" width="1700" height="200" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Agile Team Collaboration</text>
+    
+    <!-- Product Owner -->
+    <rect x="70" y="420" width="240" height="130" rx="5" fill="#e6f3ff" stroke="#3b82f6" stroke-width="1"/>
+    <text x="190" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">Product Owner</text>
+    
+    <text x="80" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1e40af">Responsibilities:</text>
+    <text x="80" y="467" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Backlog prioritization</text>
+    <text x="80" y="477" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Stakeholder communication</text>
+    <text x="80" y="487" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Acceptance criteria</text>
+    <text x="80" y="497" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Sprint goal definition</text>
+    <text x="80" y="507" font-family="Arial, sans-serif" font-size="9" fill="#475569">• ROI optimization</text>
+    <text x="80" y="517" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Feature validation</text>
+    
+    <rect x="80" y="525" width="80" height="15" rx="3" fill="#3b82f6"/>
+    <text x="120" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">8-12 hrs/wk</text>
+    
+    <!-- Scrum Master -->
+    <rect x="342" y="420" width="240" height="130" rx="5" fill="#e6f7f1" stroke="#10b981" stroke-width="1"/>
+    <text x="462" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#065f46">Scrum Master</text>
+    
+    <text x="352" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#065f46">Facilitation:</text>
+    <text x="352" y="467" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Sprint ceremonies</text>
+    <text x="352" y="477" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Impediment removal</text>
+    <text x="352" y="487" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Team protection</text>
+    <text x="352" y="497" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Process improvement</text>
+    <text x="352" y="507" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Agile coaching</text>
+    <text x="352" y="517" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Metrics tracking</text>
+    
+    <rect x="352" y="525" width="80" height="15" rx="3" fill="#10b981"/>
+    <text x="392" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">6-10 hrs/wk</text>
+    
+    <!-- Development Team -->
+    <rect x="614" y="420" width="240" height="130" rx="5" fill="#fef3e6" stroke="#f59e0b" stroke-width="1"/>
+    <text x="734" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400e">Development Team</text>
+    
+    <text x="624" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">Cross-functional:</text>
+    <text x="624" y="467" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Self-organizing</text>
+    <text x="624" y="477" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Full-stack developers</text>
+    <text x="624" y="487" font-family="Arial, sans-serif" font-size="9" fill="#475569">• QA engineers</text>
+    <text x="624" y="497" font-family="Arial, sans-serif" font-size="9" fill="#475569">• UX/UI designers</text>
+    <text x="624" y="507" font-family="Arial, sans-serif" font-size="9" fill="#475569">• DevOps engineers</text>
+    <text x="624" y="517" font-family="Arial, sans-serif" font-size="9" fill="#475569">• 5-9 team members</text>
+    
+    <rect x="624" y="525" width="90" height="15" rx="3" fill="#f59e0b"/>
+    <text x="669" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">40 hrs/wk</text>
+    
+    <!-- QA Team -->
+    <rect x="886" y="420" width="240" height="130" rx="5" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="1006" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#6b21a8">QA Integration</text>
+    
+    <text x="896" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#6b21a8">Testing Focus:</text>
+    <text x="896" y="467" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Test-driven development</text>
+    <text x="896" y="477" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Continuous testing</text>
+    <text x="896" y="487" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Automation first</text>
+    <text x="896" y="497" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Definition of done</text>
+    <text x="896" y="507" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Bug prevention</text>
+    <text x="896" y="517" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Quality metrics</text>
+    
+    <rect x="896" y="525" width="80" height="15" rx="3" fill="#8b5cf6"/>
+    <text x="936" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">35-40 hrs/wk</text>
+    
+    <!-- DevOps -->
+    <rect x="1158" y="420" width="240" height="130" rx="5" fill="#e6fafe" stroke="#06b6d4" stroke-width="1"/>
+    <text x="1278" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0e7490">DevOps Culture</text>
+    
+    <text x="1168" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0e7490">Automation:</text>
+    <text x="1168" y="467" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Infrastructure as code</text>
+    <text x="1168" y="477" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Automated deployments</text>
+    <text x="1168" y="487" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Environment management</text>
+    <text x="1168" y="497" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Monitoring setup</text>
+    <text x="1168" y="507" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Release automation</text>
+    <text x="1168" y="517" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Feedback loops</text>
+    
+    <rect x="1168" y="525" width="80" height="15" rx="3" fill="#06b6d4"/>
+    <text x="1208" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">20-30 hrs/wk</text>
+    
+    <!-- Stakeholders -->
+    <rect x="1430" y="420" width="240" height="130" rx="5" fill="#fef2f2" stroke="#ef4444" stroke-width="1"/>
+    <text x="1550" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">Stakeholder Engagement</text>
+    
+    <text x="1440" y="455" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#991b1b">Involvement:</text>
+    <text x="1440" y="467" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Sprint reviews</text>
+    <text x="1440" y="477" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Demo sessions</text>
+    <text x="1440" y="487" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Feedback collection</text>
+    <text x="1440" y="497" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Priority validation</text>
+    <text x="1440" y="507" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Release planning</text>
+    <text x="1440" y="517" font-family="Arial, sans-serif" font-size="9" fill="#475569">• Success metrics</text>
+    
+    <rect x="1440" y="525" width="80" height="15" rx="3" fill="#ef4444"/>
+    <text x="1480" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">4-6 hrs/sprint</text>
+  </g>
+  
+  <!-- Bidirectional arrows between workflow and team roles -->
+  <path d="M 190 300 L 190 420" stroke="#3b82f6" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 200 420 L 200 300" stroke="#3b82f6" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 462 300 L 462 420" stroke="#10b981" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 472 420 L 472 300" stroke="#10b981" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 734 300 L 734 420" stroke="#f59e0b" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 744 420 L 744 300" stroke="#f59e0b" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 1006 300 L 1006 420" stroke="#8b5cf6" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1016 420 L 1016 300" stroke="#8b5cf6" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 1278 300 L 1278 420" stroke="#06b6d4" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1288 420 L 1288 300" stroke="#06b6d4" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <path d="M 1550 300 L 1550 420" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 1560 420 L 1560 300" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <!-- Team Sheet Section -->
+  <g>
+    <rect x="50" y="610" width="1700" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Agile Workflow Team Requirements</text>
+    
+    <!-- Scrum Team -->
+    <g>
+      <rect x="70" y="650" width="240" height="60" rx="5" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="190" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0c4a6e">Scrum Team</text>
+      <text x="80" y="678" font-family="Arial, sans-serif" font-size="8" fill="#075985">• Scrum Master</text>
+      <text x="80" y="688" font-family="Arial, sans-serif" font-size="8" fill="#075985">• Product Owner</text>
+      <text x="80" y="698" font-family="Arial, sans-serif" font-size="8" fill="#075985">• Tech Lead</text>
+    </g>
+    
+    <!-- Development Team -->
+    <g>
+      <rect x="330" y="650" width="240" height="60" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+      <text x="450" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#15803d">Development Team</text>
+      <text x="340" y="678" font-family="Arial, sans-serif" font-size="8" fill="#166534">• Full-Stack Developers (3-5)</text>
+      <text x="340" y="688" font-family="Arial, sans-serif" font-size="8" fill="#166534">• Frontend Specialist</text>
+      <text x="340" y="698" font-family="Arial, sans-serif" font-size="8" fill="#166534">• Backend Specialist</text>
+    </g>
+    
+    <!-- Quality & Operations -->
+    <g>
+      <rect x="590" y="650" width="240" height="60" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+      <text x="710" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">Quality &amp; Operations</text>
+      <text x="600" y="678" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• QA Engineer</text>
+      <text x="600" y="688" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• DevOps Engineer</text>
+      <text x="600" y="698" font-family="Arial, sans-serif" font-size="8" fill="#78350f">• Data Engineer</text>
+    </g>
+    
+    <!-- Design & UX -->
+    <g>
+      <rect x="850" y="650" width="240" height="60" rx="5" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="1"/>
+      <text x="970" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7c3aed">Design &amp; UX</text>
+      <text x="860" y="678" font-family="Arial, sans-serif" font-size="8" fill="#6b21a8">• UI/UX Designer</text>
+      <text x="860" y="688" font-family="Arial, sans-serif" font-size="8" fill="#6b21a8">• User Researcher</text>
+      <text x="860" y="698" font-family="Arial, sans-serif" font-size="8" fill="#6b21a8">• Design Systems Lead</text>
+    </g>
+    
+    <!-- Team Size -->
+    <g>
+      <rect x="1110" y="650" width="590" height="60" rx="5" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+      <text x="1405" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#059669">Total Team Size: 8-12 People</text>
+      <text x="1120" y="678" font-family="Arial, sans-serif" font-size="8" fill="#047857">• Cross-functional collaboration • Self-organizing teams • Rapid iteration cycles</text>
+      <text x="1120" y="688" font-family="Arial, sans-serif" font-size="8" fill="#047857">• Daily standups • Sprint planning • Retrospectives • Continuous improvement</text>
+      <text x="1120" y="698" font-family="Arial, sans-serif" font-size="8" fill="#047857">• Shared responsibility • T-shaped skills • Collective code ownership</text>
+    </g>
+  </g>
+
+  <!-- Agile Strengths and Weaknesses -->
+  <g>
+    <rect x="50" y="740" width="1700" height="200" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="900" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Agile Workflow Strengths and Weaknesses</text>
+    
+    <!-- Flexibility Strengths -->
+    <text x="175" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Flexibility</text>
+    <text x="175" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Rapid response to change</text>
+    <text x="175" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Customer feedback loops</text>
+    <text x="175" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Iterative improvements</text>
+    <text x="175" y="828" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous delivery</text>
+    <text x="175" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Adaptive planning</text>
+    
+    <text x="175" y="855" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="175" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Scope creep potential</text>
+    <text x="175" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Less predictable timelines</text>
+    <text x="175" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Documentation gaps</text>
+    <text x="175" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Requires mature teams</text>
+    <text x="175" y="908" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Client availability needed</text>
+    
+    <!-- Collaboration Strengths -->
+    <text x="365" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Collaboration</text>
+    <text x="365" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Daily communication</text>
+    <text x="365" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Cross-functional teams</text>
+    <text x="365" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Shared ownership</text>
+    <text x="365" y="828" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Transparent progress</text>
+    <text x="365" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Team empowerment</text>
+    
+    <text x="365" y="855" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="365" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Meeting overhead</text>
+    <text x="365" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Communication challenges</text>
+    <text x="365" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Remote team difficulties</text>
+    <text x="365" y="908" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Cultural resistance</text>
+    
+    <!-- Speed Strengths -->
+    <text x="555" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Delivery Speed</text>
+    <text x="555" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• 2-4 week sprints</text>
+    <text x="555" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Working software quickly</text>
+    <text x="555" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Early value delivery</text>
+    <text x="555" y="828" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Fast feedback cycles</text>
+    <text x="555" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous releases</text>
+    
+    <text x="555" y="855" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="555" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Technical debt buildup</text>
+    <text x="555" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality vs speed tension</text>
+    <text x="555" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Burnout potential</text>
+    <text x="555" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Short-term focus</text>
+    <text x="555" y="908" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Architecture erosion</text>
+    
+    <!-- Quality Strengths -->
+    <text x="745" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Quality Focus</text>
+    <text x="745" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Definition of done</text>
+    <text x="745" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Regular retrospectives</text>
+    <text x="745" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Continuous improvement</text>
+    <text x="745" y="828" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Test automation</text>
+    <text x="745" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Code reviews</text>
+    
+    <text x="745" y="855" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="745" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Inconsistent standards</text>
+    <text x="745" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Team skill variance</text>
+    <text x="745" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Testing gaps</text>
+    <text x="745" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Legacy code challenges</text>
+    <text x="745" y="908" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Integration complexity</text>
+    
+    <!-- Customer Focus -->
+    <text x="935" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Customer Focus</text>
+    <text x="935" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Regular demos</text>
+    <text x="935" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• User story driven</text>
+    <text x="935" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Feedback integration</text>
+    <text x="935" y="828" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Business value priority</text>
+    <text x="935" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Stakeholder involvement</text>
+    
+    <text x="935" y="855" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="935" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Customer time demands</text>
+    <text x="935" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Unclear requirements</text>
+    <text x="935" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Changing priorities</text>
+    <text x="935" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Feature creep</text>
+    <text x="935" y="908" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Vision alignment</text>
+    
+    <!-- Risk Management -->
+    <text x="1125" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Risk Management</text>
+    <text x="1125" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Early risk identification</text>
+    <text x="1125" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Incremental delivery</text>
+    <text x="1125" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Sprint retrospectives</text>
+    <text x="1125" y="828" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Fail fast approach</text>
+    <text x="1125" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Regular adjustments</text>
+    
+    <text x="1125" y="855" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="1125" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Budget uncertainty</text>
+    <text x="1125" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Timeline flexibility</text>
+    <text x="1125" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Scope management</text>
+    <text x="1125" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Contract challenges</text>
+    <text x="1125" y="908" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Compliance gaps</text>
+    
+    <!-- Scaling -->
+    <text x="1315" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Scalability</text>
+    <text x="1315" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Team autonomy</text>
+    <text x="1315" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Decentralized decisions</text>
+    <text x="1315" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Parallel development</text>
+    <text x="1315" y="828" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Framework flexibility</text>
+    <text x="1315" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• SAFe/LeSS options</text>
+    
+    <text x="1315" y="855" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="1315" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Coordination overhead</text>
+    <text x="1315" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Integration challenges</text>
+    <text x="1315" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Dependency management</text>
+    <text x="1315" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Architecture drift</text>
+    <text x="1315" y="908" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Communication complexity</text>
+    
+    <!-- Success Metrics -->
+    <text x="1505" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Success Metrics</text>
+    <text x="1505" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• 60-70% faster delivery</text>
+    <text x="1505" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• 25% productivity gain</text>
+    <text x="1505" y="798" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Higher satisfaction</text>
+    <text x="1505" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Better quality</text>
+    <text x="1505" y="818" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Team happiness</text>
+    
+    <text x="1505" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Weaknesses</text>
+    <text x="1505" y="858" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Measurement difficulty</text>
+    <text x="1505" y="868" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Velocity gaming</text>
+    <text x="1505" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Quality vs quantity</text>
+    <text x="1505" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• Long-term vision</text>
+    <text x="1505" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">• ROI calculation</text>
+  </g>
+  
+  <!-- Use Cases Section -->
+  <g>
+    <rect x="50" y="960" width="1700" height="180" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="900" y="985" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Agile Workflow Use Cases</text>
+    
+    <!-- Tech Startups -->
+    <g>
+      <rect x="100" y="1005" width="300" height="110" rx="5" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="250" y="1025" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0c4a6e">Tech Startups &amp; Scale-ups</text>
+      <text x="110" y="1045" font-family="Arial, sans-serif" font-size="9" fill="#075985">• SaaS product development</text>
+      <text x="110" y="1058" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Mobile app development</text>
+      <text x="110" y="1071" font-family="Arial, sans-serif" font-size="9" fill="#075985">• MVP rapid prototyping</text>
+      <text x="110" y="1084" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Product-market fit search</text>
+      <text x="110" y="1097" font-family="Arial, sans-serif" font-size="9" fill="#075985">• Growth experimentation</text>
+    </g>
+    
+    <!-- Digital Agencies -->
+    <g>
+      <rect x="420" y="1005" width="300" height="110" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+      <text x="570" y="1025" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">Digital Agencies &amp; Consultancies</text>
+      <text x="430" y="1045" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Client project delivery</text>
+      <text x="430" y="1058" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Web development projects</text>
+      <text x="430" y="1071" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Marketing campaigns</text>
+      <text x="430" y="1084" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Digital transformation</text>
+      <text x="430" y="1097" font-family="Arial, sans-serif" font-size="9" fill="#78350f">• Innovation workshops</text>
+    </g>
+    
+    <!-- Software Companies -->
+    <g>
+      <rect x="740" y="1005" width="300" height="110" rx="5" fill="#f0fdf4" stroke="#10b981" stroke-width="1"/>
+      <text x="890" y="1025" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14532d">Software Product Companies</text>
+      <text x="750" y="1045" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Product feature development</text>
+      <text x="750" y="1058" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Platform modernization</text>
+      <text x="750" y="1071" font-family="Arial, sans-serif" font-size="9" fill="#166534">• API development</text>
+      <text x="750" y="1084" font-family="Arial, sans-serif" font-size="9" fill="#166534">• Cloud migration projects</text>
+      <text x="750" y="1097" font-family="Arial, sans-serif" font-size="9" fill="#166534">• DevOps transformations</text>
+    </g>
+    
+    <!-- E-commerce -->
+    <g>
+      <rect x="1060" y="1005" width="300" height="110" rx="5" fill="#fdf4ff" stroke="#a855f7" stroke-width="1"/>
+      <text x="1210" y="1025" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#581c87">E-commerce &amp; Retail Tech</text>
+      <text x="1070" y="1045" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Online marketplace development</text>
+      <text x="1070" y="1058" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Customer experience features</text>
+      <text x="1070" y="1071" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• A/B testing implementations</text>
+      <text x="1070" y="1084" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Personalization engines</text>
+      <text x="1070" y="1097" font-family="Arial, sans-serif" font-size="9" fill="#6b21a8">• Payment integrations</text>
+    </g>
+    
+    <!-- Why Agile -->
+    <g>
+      <rect x="1380" y="1005" width="320" height="110" rx="5" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+      <text x="1540" y="1025" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">Why Agile Works Here</text>
+      <text x="1390" y="1045" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Rapid market changes require flexibility</text>
+      <text x="1390" y="1058" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Customer feedback drives development</text>
+      <text x="1390" y="1071" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Innovation and experimentation valued</text>
+      <text x="1390" y="1084" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Cross-functional collaboration essential</text>
+      <text x="1390" y="1097" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">• Speed to market is competitive advantage</text>
+    </g>
+  </g>
+</svg>
