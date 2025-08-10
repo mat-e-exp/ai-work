@@ -2,14 +2,28 @@
 
 This project visualizes the evolution of software development methodologies from traditional waterfall approaches through agile practices to AI-augmented and fully agentic workflows.
 
+![Development Workflow Evolution Overview](hlss.png)
+
+## Quick Evolution Overview
+
+The evolution overview diagram (`evolution-overview.svg`) provides a high-level comparison of all four workflow types, showing the progression from traditional to agentic development:
+
+- **Team Size Reduction**: 25 → 12 → 9 → 6 people as automation increases
+- **Timeline Compression**: 6-12 months → 2-4 weeks → Hours → Continuous
+- **Automation Level**: Manual gates → Human collaboration → AI-assisted → Autonomous
+- **Control Model**: Centralized → Distributed → Hybrid → Emergent
+
+This overview helps quickly identify which workflow fits your organization's maturity level, risk tolerance, and technical capabilities.
+
 ## Overview
 
-This project contains four comprehensive workflow diagrams that illustrate the progression of software development practices:
+This project contains four comprehensive workflow diagrams that illustrate the progression of software development practices, plus an overview diagram showing the evolution at a glance:
 
-1. **Traditional Workflow** (`trad-wf.svg`) - Sequential waterfall process with manual gates
-2. **Agile Workflow** (`agile-wf.svg`) - Iterative sprint-based development with cross-functional teams
-3. **AI Hybrid Workflow** (`aitool-wf.svg`) - AI-augmented development with continuous human oversight
-4. **Agentic Workflow** (`agent-wf.svg`) - Autonomous AI agents with strategic human guidance
+1. **Evolution Overview** (`evolution-overview.svg`) - Quick visual comparison of all four workflow types
+2. **Traditional Workflow** (`trad-wf.svg`) - Sequential waterfall process with manual gates
+3. **Agile Workflow** (`agile-wf.svg`) - Iterative sprint-based development with cross-functional teams
+4. **AI Hybrid Workflow** (`aitool-wf.svg`) - AI-augmented development with continuous human oversight
+5. **Agentic Workflow** (`agent-wf.svg`) - Autonomous AI agents with strategic human guidance
 
 Each workflow diagram includes:
 - Process stages and tools used
@@ -95,11 +109,12 @@ Each SVG file can be opened in any browser or SVG-compatible viewer. The diagram
 
 ```
 ai-work/
-├── trad-wf.svg          # Traditional waterfall workflow
-├── agile-wf.svg         # Agile sprint-based workflow  
-├── aitool-wf.svg        # AI hybrid workflow
-├── agent-wf.svg         # Agentic workflow
-└── README.md            # This documentation
+├── evolution-overview.svg   # Quick visual comparison of all workflows
+├── trad-wf.svg             # Traditional waterfall workflow
+├── agile-wf.svg            # Agile sprint-based workflow  
+├── aitool-wf.svg           # AI hybrid workflow
+├── agent-wf.svg            # Agentic workflow
+└── README.md               # This documentation
 ```
 
 ## Implementation Considerations
