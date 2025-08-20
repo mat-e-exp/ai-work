@@ -1,6 +1,16 @@
-# Development Workflow Evolution
+# AI Career Impact & Development Workflow Evolution
 
-This project visualizes the evolution of software development methodologies from traditional waterfall approaches through agile practices to AI-augmented and fully agentic workflows.
+This project contains comprehensive visualizations for AI's impact on technical careers and the evolution of software development methodologies from traditional waterfall approaches through agile practices to AI-augmented and fully agentic workflows.
+
+## AI Career Impact Analysis
+
+The `ai-career-impact-expanded.svg` provides a data-driven analysis of how AI is transforming technical careers, featuring:
+
+- **26 Current Technical Roles**: Impact percentages, uncertainty metrics, and mitigation strategies
+- **18+ New AI-Created Jobs**: Demand percentages, salary ranges, and required skills  
+- **Executive Summary**: Key market trends, affected industries, and statistics
+- **Research-Backed Data**: All metrics sourced from Gartner, McKinsey, WEF, MIT CSAIL, Stanford SALT Lab, and other authoritative sources
+- **Interactive Citations**: Clickable links to actual research sources
 
 ![Development Workflow Evolution Overview](hlss.png)
 
@@ -109,12 +119,13 @@ Each SVG file can be opened in any browser or SVG-compatible viewer. The diagram
 
 ```
 ai-work/
-├── evolution-overview.svg   # Quick visual comparison of all workflows
-├── trad-wf.svg             # Traditional waterfall workflow
-├── agile-wf.svg            # Agile sprint-based workflow  
-├── aitool-wf.svg           # AI hybrid workflow
-├── agent-wf.svg            # Agentic workflow
-└── README.md               # This documentation
+├── ai-career-impact-expanded.svg  # Comprehensive AI career impact analysis
+├── evolution-overview.svg         # Quick visual comparison of all workflows
+├── trad-wf.svg                   # Traditional waterfall workflow
+├── agile-wf.svg                  # Agile sprint-based workflow  
+├── aitool-wf.svg                 # AI hybrid workflow
+├── agent-wf.svg                  # Agentic workflow
+└── README.md                     # This documentation
 ```
 
 ## Implementation Considerations

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1400 2400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="positiveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="negativeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="neutralGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6b7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4b5563;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="2400" fill="#f9fafb"/>
+  
+  <!-- Title -->
+  <rect x="0" y="0" width="1400" height="80" fill="#1e293b"/>
+  <text x="700" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">
+    AI Impact on Technical Careers: Data-Driven Analysis 2024-2030
+  </text>
+  <text x="700" y="68" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    Based on research from Gartner, McKinsey, WEF Future of Jobs 2025, MIT CSAIL, Stanford SALT Lab
+  </text>
+
+  <!-- Column Headers -->
+  <g transform="translate(0, 100)">
+    <rect x="20" y="0" width="280" height="40" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="160" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">Technical Role</text>
+    
+    <rect x="300" y="0" width="150" height="40" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="375" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">AI Impact %</text>
+    
+    <rect x="450" y="0" width="120" height="40" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="510" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">Uncertainty</text>
+    
+    <rect x="570" y="0" width="480" height="40" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="810" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">Mitigation Strategy / Growth Opportunity</text>
+    
+    <rect x="1050" y="0" width="330" height="40" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="1215" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">Source</text>
+  </g>
+
+  <!-- Current Jobs Section -->
+  <g transform="translate(0, 160)">
+    <!-- Software Development Category -->
+    <rect x="20" y="0" width="1360" height="30" fill="#dbeafe"/>
+    <text x="30" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e40af">SOFTWARE DEVELOPMENT</text>
+    
+    <!-- Software Engineer -->
+    <g transform="translate(0, 30)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Software Engineer</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-25% to -40%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">20%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Focus on system architecture, AI integration</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Microsoft layoffs 2025¹, Big Tech hiring -25%²</text>
+    </g>
+
+    <!-- Frontend Developer -->
+    <g transform="translate(0, 65)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Frontend Developer</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-35%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">25%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">UX expertise, accessibility, complex interactions</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">UI generation tools impact</text>
+    </g>
+
+    <!-- Backend Developer -->
+    <g transform="translate(0, 100)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Backend Developer</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-30%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">20%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Distributed systems, performance optimization</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">API automation trends</text>
+    </g>
+
+    <!-- DevOps Engineer -->
+    <g transform="translate(0, 135)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">DevOps Engineer</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#dcfce7" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a" text-anchor="middle">+20%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">15%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">AI-driven automation, monitoring tools</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">McKinsey State of AI 2024³</text>
+    </g>
+
+    <!-- QA Engineer -->
+    <g transform="translate(0, 170)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">QA Engineer</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-55%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">25%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Test strategy, exploratory testing</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">GitHub Copilot 55% productivity⁴</text>
+    </g>
+
+    <!-- AI/ML Engineer -->
+    <g transform="translate(0, 205)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI/ML Engineer</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#dcfce7" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a" text-anchor="middle">+56%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">20%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Build AI infrastructure, model deployment</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Gartner: Most in-demand role 2024⁵</text>
+    </g>
+
+    <!-- Data & Analytics Category -->
+    <g transform="translate(0, 250)">
+      <rect x="20" y="0" width="1360" height="30" fill="#fef3c7"/>
+      <text x="30" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#92400e">DATA &amp; ANALYTICS</text>
+    </g>
+
+    <!-- Data Scientist -->
+    <g transform="translate(0, 280)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Data Scientist</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-20%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">25%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Domain expertise, experimental design</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">AutoML tools impact</text>
+    </g>
+
+    <!-- Data Engineer -->
+    <g transform="translate(0, 315)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Data Engineer</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#dcfce7" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a" text-anchor="middle">+25%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">15%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Pipeline automation, data governance</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">McKinsey: 78% orgs use AI 2024⁶</text>
+    </g>
+
+    <!-- Data Analyst -->
+    <g transform="translate(0, 350)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Data Analyst</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-45%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">25%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Business context, stakeholder communication</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">60% companies automated analytics⁷</text>
+    </g>
+
+    <!-- Security Category -->
+    <g transform="translate(0, 395)">
+      <rect x="20" y="0" width="1360" height="30" fill="#fee2e2"/>
+      <text x="30" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#991b1b">SECURITY &amp; INFRASTRUCTURE</text>
+    </g>
+
+    <!-- Security Engineer -->
+    <g transform="translate(0, 425)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Security Engineer</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#dcfce7" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a" text-anchor="middle">+35%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">20%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">AI-powered threat detection, response automation</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">ISC2: 88% see AI impact⁹</text>
+    </g>
+
+    <!-- SOC Analyst -->
+    <g transform="translate(0, 460)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">SOC Analyst</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-30%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">25%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Complex threat investigations, incident response</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">82% efficiency gains reported¹⁰</text>
+    </g>
+
+    <!-- Cloud Architect -->
+    <g transform="translate(0, 495)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Cloud Architect</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#dcfce7" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a" text-anchor="middle">+15%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">20%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Multi-cloud strategy, edge computing, AI workloads</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Growing AI infrastructure needs</text>
+    </g>
+
+    <!-- System Administrator -->
+    <g transform="translate(0, 530)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">System Administrator</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-50%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">20%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">Hybrid environments, security focus</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Automation impact studies</text>
+    </g>
+
+    <!-- Management Category -->
+    <g transform="translate(0, 575)">
+      <rect x="20" y="0" width="1360" height="30" fill="#e0e7ff"/>
+      <text x="30" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#3730a3">MANAGEMENT &amp; LEADERSHIP</text>
+    </g>
+
+    <!-- Technical Lead -->
+    <g transform="translate(0, 605)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Technical Lead</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-10%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">15%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">AI team management, ethics oversight</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Leadership still critical</text>
+    </g>
+
+    <!-- Engineering Manager -->
+    <g transform="translate(0, 640)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Engineering Manager</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#fee2e2" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">-5%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">15%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">AI-augmented teams, productivity optimization</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Human element remains</text>
+    </g>
+
+    <!-- Product Manager -->
+    <g transform="translate(0, 675)">
+      <rect x="20" y="0" width="280" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Product Manager</text>
+      
+      <rect x="300" y="0" width="150" height="35" fill="#dcfce7" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="375" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a" text-anchor="middle">+15%</text>
+      
+      <rect x="450" y="0" width="120" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="510" y="22" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">20%</text>
+      
+      <rect x="570" y="0" width="480" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="580" y="22" font-family="Arial, sans-serif" font-size="11" fill="#374151">AI product strategy, ethics, user experience</text>
+      
+      <rect x="1050" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1060" y="22" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">AI products growth</text>
+    </g>
+  </g>
+
+  <!-- New AI Jobs Section -->
+  <g transform="translate(0, 900)">
+    <rect x="20" y="0" width="1360" height="40" fill="#1e293b"/>
+    <text x="700" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">
+      NEW AI-CREATED JOBS (170M new roles by 2030 - WEF Future of Jobs 2025¹¹)
+    </text>
+  </g>
+
+  <g transform="translate(0, 960)">
+    <!-- AI-Specific Roles -->
+    <rect x="20" y="0" width="1360" height="30" fill="#dcfce7"/>
+    <text x="30" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14532d">AI-SPECIFIC EMERGING ROLES</text>
+    
+    <g transform="translate(0, 30)">
+      <rect x="20" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI Prompt Engineer</text>
+      
+      <rect x="350" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="360" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI Trainer/Fine-tuner</text>
+      
+      <rect x="680" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="690" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI Ethics Officer (13% hiring¹²)</text>
+      
+      <rect x="1010" y="0" width="370" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1020" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI Auditor/Compliance Specialist</text>
+    </g>
+
+    <g transform="translate(0, 65)">
+      <rect x="20" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">LLM Operations Engineer</text>
+      
+      <rect x="350" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="360" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI Integration Specialist</text>
+      
+      <rect x="680" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="690" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Synthetic Data Engineer</text>
+      
+      <rect x="1010" y="0" width="370" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1020" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI Safety Engineer</text>
+    </g>
+
+    <g transform="translate(0, 100)">
+      <rect x="20" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="30" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI Quality Assurance</text>
+      
+      <rect x="350" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="360" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI Performance Optimizer</text>
+      
+      <rect x="680" y="0" width="330" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="690" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">AI-Human Interaction Designer</text>
+      
+      <rect x="1010" y="0" width="370" height="35" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <text x="1020" y="22" font-family="Arial, sans-serif" font-size="12" fill="#374151">Digital Twin Engineer</text>
+    </g>
+  </g>
+
+  <!-- Key Statistics Box -->
+  <g transform="translate(0, 1150)">
+    <rect x="20" y="0" width="1360" height="180" fill="#f0f9ff" stroke="#0284c7" stroke-width="2" rx="5"/>
+    <text x="700" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0c4a6e" text-anchor="middle">
+      KEY STATISTICS &amp; TRENDS
+    </text>
+    
+    <text x="50" y="60" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • 80% of engineering workforce needs upskilling by 2027 (Gartner)
+    </text>
+    <text x="50" y="85" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • 75% of enterprise software engineers will use AI code assistants by 2028 (Gartner)
+    </text>
+    <text x="50" y="110" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Only 23% of vision-based tasks economically viable for AI automation currently (MIT CSAIL)
+    </text>
+    <text x="50" y="135" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • 46% of workers positive about AI automation of their tasks (Stanford SALT Lab)
+    </text>
+    <text x="50" y="160" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • 40% of employers expect workforce reduction where AI applicable (WEF 2025)
+    </text>
+  </g>
+
+  <!-- Legend/Explanation Box -->
+  <g transform="translate(0, 1350)">
+    <rect x="20" y="0" width="1360" height="200" fill="#fefce8" stroke="#ca8a04" stroke-width="1" rx="5"/>
+    <text x="700" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#713f12" text-anchor="middle">
+      HOW TO READ THIS CHART
+    </text>
+    
+    <g transform="translate(50, 50)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#374151">Column Explanations:</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+        • AI Impact %: Predicted change in demand/nature of role (-100% to +100%). Negative = automation/reduction, Positive = growth
+      </text>
+      <text x="0" y="45" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+        • Uncertainty %: Confidence interval (0-50%). Low (0-15%) = clear trends, High (30-50%) = many unknowns
+      </text>
+      <text x="0" y="65" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+        • Mitigation/Strategy: Key actions to remain valuable in the evolving job market
+      </text>
+    </g>
+
+    <g transform="translate(50, 130)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#374151">Example Interpretations:</text>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+        QA Engineer (-55% impact, 25% uncertainty): High automation risk, actual impact could range -30% to -80%
+      </text>
+      <text x="0" y="38" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+        AI/ML Engineer (+56% impact, 20% uncertainty): Growing demand with moderate confidence, likely range +36% to +76%
+      </text>
+      <text x="0" y="56" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+        Technical Lead (-10% impact, 15% uncertainty): Slight reduction but stable, human leadership remains essential
+      </text>
+    </g>
+  </g>
+
+  <!-- Source Citations -->
+  <g transform="translate(0, 1570)">
+    <rect x="20" y="0" width="1360" height="280" fill="white" stroke="#d1d5db" stroke-width="1" rx="5"/>
+    <text x="700" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">
+      DATA SOURCES &amp; CITATIONS
+    </text>
+    
+    <g transform="translate(50, 50)">
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ¹ Microsoft layoffs May 2025: 6,000 positions, 40% software engineers citing AI automation
+      </text>
+      <text x="0" y="38" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ² Big Tech companies reduced new graduate hiring by 25% in 2024 (accelerating in 2025)
+      </text>
+      <text x="0" y="56" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ³ McKinsey State of AI 2024: 78% of organizations using AI in at least one business function
+      </text>
+      <text x="0" y="74" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ⁴ GitHub Copilot research: 55% faster task completion, 30% suggestion acceptance rate
+      </text>
+      <text x="0" y="92" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ⁵ Gartner 2024: 56% of software engineering leaders rate AI/ML engineer as most in-demand
+      </text>
+      <text x="0" y="110" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ⁶ McKinsey 2024: 71% of organizations regularly use gen AI in at least one function
+      </text>
+      <text x="0" y="128" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ⁷ Business automation statistics 2024: 60% of companies implemented automation
+      </text>
+      <text x="0" y="146" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ⁸ Tableau AI 2024: Reducing repetitive tasks for data analysts with smart suggestions
+      </text>
+      <text x="0" y="164" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ⁹ ISC2 AI in Cyber 2024: 88% of cybersecurity professionals seeing AI impact
+      </text>
+      <text x="0" y="182" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ¹⁰ ISC2 Survey: 82% report AI improving job efficiency in cybersecurity
+      </text>
+      <text x="0" y="200" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ¹¹ WEF Future of Jobs 2025: 170M new roles created, 92M displaced by 2030 (net +78M)
+      </text>
+      <text x="0" y="218" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">
+        ¹² McKinsey 2024: 13% of organizations hired AI compliance specialists
+      </text>
+    </g>
+  </g>
+
+  <!-- Additional Research Notes -->
+  <g transform="translate(0, 1870)">
+    <rect x="20" y="0" width="1360" height="120" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1" rx="5"/>
+    <text x="700" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="middle">
+      ADDITIONAL RESEARCH INSIGHTS
+    </text>
+    
+    <g transform="translate(50, 40)">
+      <text x="0" y="15" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+        • MIT CSAIL: Economic viability is key limiting factor for AI automation, suggesting gradual integration
+      </text>
+      <text x="0" y="33" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+        • Stanford SALT Lab: 36% of occupations already using AI for 25%+ of tasks (Anthropic usage data, 2025)
+      </text>
+      <text x="0" y="51" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+        • Worker concerns: Lack of trust (45%), job replacement fear (23%), absence of human touch (16.3%)
+      </text>
+      <text x="0" y="69" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+        • Accenture study: 84% increase in successful builds with GitHub Copilot, 96% adoption success rate
+      </text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(0, 2020)">
+    <rect x="0" y="0" width="1400" height="60" fill="#1e293b"/>
+    <text x="700" y="25" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">
+      Data compiled from: Gartner (2024), McKinsey Global Survey on AI (2024), WEF Future of Jobs Report (2025),
+    </text>
+    <text x="700" y="42" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">
+      MIT CSAIL automation study, Stanford SALT Lab, ISC2 Cybersecurity Survey, GitHub Copilot research
+    </text>
+  </g>
+
+  <!-- Update Date -->
+  <text x="1370" y="2070" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">
+    Last Updated: January 2025
+  </text>
+</svg>
